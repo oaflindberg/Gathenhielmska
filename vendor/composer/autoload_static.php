@@ -13,8 +13,8 @@ class ComposerStaticInite375463b4fd67c84991ec1f8deaa9f86
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '841f98c5d948ce534a6f87abe5b50614' => __DIR__ . '/..' . '/roots/wp-password-bcrypt/wp-password-bcrypt.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '413614dbc06bade22a685c0ebe14027c' => __DIR__ . '/..' . '/wordplate/acf/src/helpers.php',
         'a21e70ca1cdeca5aa284b987d10b88cd' => __DIR__ . '/..' . '/wordplate/framework/src/helpers.php',
+        '413614dbc06bade22a685c0ebe14027c' => __DIR__ . '/..' . '/wordplate/acf/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
