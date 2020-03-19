@@ -969,6 +969,44 @@
         ]
     },
     {
+        "name": "upperdog/hide-updates",
+        "version": "v1.1.5",
+        "version_normalized": "1.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Upperdog/hide-updates.git",
+            "reference": "656cef909ee3d584e4ac62b0451a7967c25c9f0e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Upperdog/hide-updates/zipball/656cef909ee3d584e4ac62b0451a7967c25c9f0e",
+            "reference": "656cef909ee3d584e4ac62b0451a7967c25c9f0e",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.6"
+        },
+        "time": "2019-12-18T08:21:22+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Upperdog",
+                "email": "hello@upperdog.com"
+            }
+        ],
+        "description": "This plugin hides update notifications for WordPress core, plugin, and theme updates in WordPress admin for all users except first registered user or specified users.",
+        "homepage": "https://github.com/upperdog/hide-updates",
+        "keywords": [
+            "updates",
+            "wordpress"
+        ]
+    },
+    {
         "name": "vlucas/phpdotenv",
         "version": "v3.6.1",
         "version_normalized": "3.6.1.0",

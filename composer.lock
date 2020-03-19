@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd9747fb41495ca625a78cf7ae5976b7",
+    "content-hash": "c275704353e30a16dd0b9beaaa611a95",
     "packages": [
         {
             "name": "composer/installers",
@@ -944,6 +944,42 @@
                 "dump"
             ],
             "time": "2020-02-26T22:30:10+00:00"
+        },
+        {
+            "name": "upperdog/hide-updates",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Upperdog/hide-updates.git",
+                "reference": "656cef909ee3d584e4ac62b0451a7967c25c9f0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Upperdog/hide-updates/zipball/656cef909ee3d584e4ac62b0451a7967c25c9f0e",
+                "reference": "656cef909ee3d584e4ac62b0451a7967c25c9f0e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Upperdog",
+                    "email": "hello@upperdog.com"
+                }
+            ],
+            "description": "This plugin hides update notifications for WordPress core, plugin, and theme updates in WordPress admin for all users except first registered user or specified users.",
+            "homepage": "https://github.com/upperdog/hide-updates",
+            "keywords": [
+                "updates",
+                "wordpress"
+            ],
+            "time": "2019-12-18T08:21:22+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -11,6 +11,7 @@
     "require": {
         "php": "^7.2",
         "roots/soil": "^3.9",
+        "upperdog/hide-updates": "^1.1",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0"
     },
