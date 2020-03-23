@@ -43,3 +43,8 @@ add_filter('jpeg_quality', function () {
 }, 10, 2);
 
 // require get_template_directory() . '/plate.php';
+
+
+require get_template_directory() . '/post-types/event.php';
+
+require get_template_directory() . '/taxonomies/category.php';

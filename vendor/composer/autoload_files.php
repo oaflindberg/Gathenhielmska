@@ -12,6 +12,6 @@ return array(
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
     '841f98c5d948ce534a6f87abe5b50614' => $vendorDir . '/roots/wp-password-bcrypt/wp-password-bcrypt.php',
     '667aeda72477189d0494fecd327c3641' => $vendorDir . '/symfony/var-dumper/Resources/functions/dump.php',
-    'a21e70ca1cdeca5aa284b987d10b88cd' => $vendorDir . '/wordplate/framework/src/helpers.php',
     '413614dbc06bade22a685c0ebe14027c' => $vendorDir . '/wordplate/acf/src/helpers.php',
+    'a21e70ca1cdeca5aa284b987d10b88cd' => $vendorDir . '/wordplate/framework/src/helpers.php',
 );
