@@ -1220,5 +1220,25 @@
             "wordplate",
             "wordpress"
         ]
+    },
+    {
+        "name": "wpackagist-plugin/ninja-forms",
+        "version": "3.4.24.1",
+        "version_normalized": "3.4.24.1",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+            "reference": "tags/3.4.24.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.4.24.1.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/ninja-forms/"
     }
 ]
