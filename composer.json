@@ -14,7 +14,8 @@
         "upperdog/hide-updates": "^1.1",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0",
-        "wpackagist-plugin/ninja-forms": "3.4.24.1"
+        "wpackagist-plugin/ninja-forms": "3.4.24.1",
+        "wpackagist-plugin/responsive-menu": "^3.1"
     },
     "config": {
         "optimize-autoloader": true,

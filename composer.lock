@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1346e5557ddebdaeb6bdb4553a73513d",
+    "content-hash": "a2b107b6e2f945dd685dc33765506634",
     "packages": [
         {
             "name": "composer/installers",
@@ -1205,6 +1205,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ninja-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/responsive-menu",
+            "version": "3.1.27",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/responsive-menu/",
+                "reference": "tags/3.1.27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/responsive-menu.3.1.27.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/responsive-menu/"
         }
     ],
     "packages-dev": [],
@@ -1216,6 +1234,5 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

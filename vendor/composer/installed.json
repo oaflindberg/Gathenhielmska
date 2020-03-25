@@ -1240,5 +1240,25 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/ninja-forms/"
+    },
+    {
+        "name": "wpackagist-plugin/responsive-menu",
+        "version": "3.1.27",
+        "version_normalized": "3.1.27.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/responsive-menu/",
+            "reference": "tags/3.1.27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/responsive-menu.3.1.27.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/responsive-menu/"
     }
 ]
