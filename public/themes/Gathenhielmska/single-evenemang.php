@@ -17,7 +17,7 @@
 
 <?php endif; ?>
 
-<?php $event = get_posts(['post_type' => 'event']) ?>
+<?php $event = get_posts(['post_type' => 'Evenemang']) ?>
 
 <!-- <?php $skills = get_the_terms($event, 'category')  ?>
 
@@ -30,8 +30,8 @@
 </div>
 
 
-<?php previous_post_link(); ?>
+<!-- <?php previous_post_link(); ?>
 
-<?php next_post_link(); ?>
+<?php next_post_link(); ?> -->
 
 <?php get_footer(); ?>
