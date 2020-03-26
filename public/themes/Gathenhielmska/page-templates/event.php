@@ -21,6 +21,28 @@ $args = [
                     </a>
                 </h1>
                 <p><?php echo $post->post_content; ?></p>
+
             </div> <?php endforeach; ?> </div>
 <?php endif; ?>
+
+
+
+<?php $events = get_posts(['post_type' => 'Evenemang']) ?>
+
+
+
+<?php foreach ($events as $event) : ?>
+
+    <?php $categories = get_the_terms($event, 'category')  ?>
+
+
+    <?php foreach ($categories as $category) : ?>
+
+        <p> <?php echo $category->name ?></p>
+    <?php endforeach; ?>
+
+<?php endforeach; ?>
+
+
+
 <?php get_footer(); ?>
