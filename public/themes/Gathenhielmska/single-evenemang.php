@@ -17,13 +17,15 @@
 
 <?php endif; ?>
 
-<?php $event = get_posts(['post_type' => 'Evenemang']) ?>
 
-<!-- <?php $skills = get_the_terms($event, 'category')  ?>
+<?php $categories = get_the_terms($post, 'category')  ?>
 
-<?php foreach ($skills as $skill) : ?>
-    <p> <?php echo $skill->name ?></p>
-<?php endforeach; ?> -->
+<?php foreach ($categories as $category) : ?>
+    <p> <?php echo 'Kategori: ' .  $category->name ?></p>
+<?php endforeach; ?>
+
+
+
 
 <div class="navigation">
     <p><?php posts_nav_link(); ?></p>
