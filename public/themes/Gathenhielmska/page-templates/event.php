@@ -12,6 +12,7 @@ $args = [
 <?php $events = get_posts($args); ?>
 <?php if (count($events)) : ?>
     <div class="event-container">
+
         <?php foreach ($events as $post) : ?>
             <div class="event-cards">
                 <?php the_post_thumbnail('thumbnail'); ?>

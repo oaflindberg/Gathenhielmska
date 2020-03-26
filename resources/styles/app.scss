@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-@import './project/'; 
+@import './project/typography.scss'; 
+@import './project/variables.scss'; 
 
-@import './components/';
+@import './components/navigation.scss';
+@import './components/footer.scss';
+@import './components/event.scss';
 
 
 
