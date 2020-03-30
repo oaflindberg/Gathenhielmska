@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b3583b55f0433fc3aae57e03a1f67b3",
+    "content-hash": "5e6337c56c982feb525a92b69621361e",
     "packages": [
         {
             "name": "composer/installers",
@@ -1259,6 +1259,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/responsive-menu/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-event-manager",
+            "version": "3.1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-event-manager/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-event-manager.zip?timestamp=1585485581"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-event-manager/"
         }
     ],
     "packages-dev": [],
@@ -1270,6 +1288,5 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

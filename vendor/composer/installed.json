@@ -1300,5 +1300,25 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/responsive-menu/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-event-manager",
+        "version": "3.1.12",
+        "version_normalized": "3.1.12.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-event-manager/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-event-manager.zip?timestamp=1585485581"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-event-manager/"
     }
 ]
