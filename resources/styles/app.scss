@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-@import './project/typography.scss'; 
-@import './project/variables.scss'; 
+@import './project/typography.scss';
+@import './project/variables.scss';
 
 @import './components/navigation.scss';
 @import './components/footer.scss';
@@ -18,9 +18,39 @@
 }
 
 
-.contact-form-wrapper {
+.contact-wrapper {
   margin-top: 10%;
-  height: 70vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-main {
+  margin: 20px;
+}
+
+.contact-heading {
   text-align: center;
+}
+
+.collaborator {
+  margin: 20px;
+  text-align: center;
+
+  &-name {
+    font-weight: bold;
+  }
+
+  &-title {
+    font-weight: light;
+    font-style: italic;
+  }
+}
+
+.other-actor {
+  margin: 20px;
+  text-align: center;
+
+  &-title {
+    font-weight: bold;
+  }
 }
 
