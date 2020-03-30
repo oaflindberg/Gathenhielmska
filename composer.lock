@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2b107b6e2f945dd685dc33765506634",
+    "content-hash": "5b3583b55f0433fc3aae57e03a1f67b3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1189,6 +1189,42 @@
             "time": "2019-08-08T13:02:18+00:00"
         },
         {
+            "name": "wpackagist-plugin/modern-events-calendar-lite",
+            "version": "5.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite/",
+                "reference": "tags/5.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/modern-events-calendar-lite.5.2.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/modern-events-calendar-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/newsletter",
+            "version": "6.5.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/newsletter/",
+                "reference": "tags/6.5.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/newsletter.6.5.8.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/newsletter/"
+        },
+        {
             "name": "wpackagist-plugin/ninja-forms",
             "version": "3.4.24.1",
             "source": {
@@ -1234,5 +1270,6 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

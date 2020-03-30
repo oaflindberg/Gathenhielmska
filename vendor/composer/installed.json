@@ -1222,6 +1222,46 @@
         ]
     },
     {
+        "name": "wpackagist-plugin/modern-events-calendar-lite",
+        "version": "5.2.2",
+        "version_normalized": "5.2.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite/",
+            "reference": "tags/5.2.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/modern-events-calendar-lite.5.2.2.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/modern-events-calendar-lite/"
+    },
+    {
+        "name": "wpackagist-plugin/newsletter",
+        "version": "6.5.8",
+        "version_normalized": "6.5.8.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/newsletter/",
+            "reference": "tags/6.5.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/newsletter.6.5.8.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/newsletter/"
+    },
+    {
         "name": "wpackagist-plugin/ninja-forms",
         "version": "3.4.24.1",
         "version_normalized": "3.4.24.1",
