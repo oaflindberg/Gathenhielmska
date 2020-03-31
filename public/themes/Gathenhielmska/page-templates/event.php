@@ -21,22 +21,18 @@ $args = [
                         <?php echo $post->post_title; ?>
                     </a>
                 </h1>
-                <p><?php echo $post->post_content; ?></p>
+
+
+                <?php get_field('Event info') ?>
+                <p> <?php echo the_field('descript') ?></p>
 
                 <?php $categories = get_the_terms($post, 'category')  ?>
-
                 <?php foreach ($categories as $category) : ?>
                     <p> <?php echo 'Kategori: ' .  $category->name ?></p>
+                    <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
                 <?php endforeach; ?>
 
 
             </div> <?php endforeach; ?> </div>
 <?php endif; ?>
-
-
-
-
-
-
-
 <?php get_footer(); ?>

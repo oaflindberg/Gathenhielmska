@@ -10,16 +10,9 @@
 
             <?php $date = the_date($d = '', $before = '', $after = '',  $echo = true);
             echo $date; ?>
-
             <?php the_content(); ?>
 
-            <?php $categories = get_the_terms($post, 'category')  ?>
 
-            <?php foreach ($categories as $category) : ?>
-                <p> <?php echo 'Kategori: ' .  $category->name ?></p>
-            <?php endforeach; ?>
-
-            <button href="www.biletto.se">Tickets</button>
         <?php endwhile; ?>
     </div>
 <?php endif; ?>
