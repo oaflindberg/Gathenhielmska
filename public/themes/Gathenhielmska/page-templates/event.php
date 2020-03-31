@@ -22,7 +22,6 @@ $args = [
                     </a>
                 </h1>
 
-
                 <?php get_field('Event info') ?>
                 <p> <?php echo the_field('descript') ?></p>
 
