@@ -22,8 +22,12 @@ $args = [
                     </a>
                 </h1>
 
+
                 <?php get_field('Event info') ?>
                 <p> <?php echo the_field('descript') ?></p>
+                <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
+                <p> <?php echo the_field('date') ?></p>
+
 
                 <?php $categories = get_the_terms($post, 'category')  ?>
                 <?php foreach ($categories as $category) : ?>
@@ -31,6 +35,7 @@ $args = [
                     <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
                 <?php endforeach; ?>
 
+                <button>Boka biljett</button>
 
             </div> <?php endforeach; ?> </div>
 <?php endif; ?>
