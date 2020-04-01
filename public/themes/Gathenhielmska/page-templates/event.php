@@ -24,16 +24,18 @@ $args = [
 
                 <?php get_field('Event info') ?>
                 <p> <?php echo the_field('descript') ?></p>
-                <?php get_field('Event info') ?>
+                <p> <?php echo the_field('entrance') ?> </p>
+                <p> <?php echo the_field('date') ?> </p>
 
                 <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
+
 
                 <?php $categories = get_the_terms($post, 'category')  ?>
                 <?php foreach ($categories as $category) : ?>
                     <p> <?php echo 'Kategori: ' .  $category->name ?></p>
                     <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
                 <?php endforeach; ?>
-
+                <button href="www.biletto.se">Tickets</button>
 
             </div> <?php endforeach; ?> </div>
 <?php endif; ?>

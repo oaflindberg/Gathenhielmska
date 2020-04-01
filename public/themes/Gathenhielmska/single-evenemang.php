@@ -8,14 +8,16 @@
 
             <h1><?php the_title(); ?></h1>
 
-            <?php $date = the_date($d = '', $before = '', $after = '',  $echo = true);
-            echo $date; ?>
+            <!-- <?php $date = the_date($d = '', $before = '', $after = '',  $echo = true);
+                    echo $date; ?> -->
 
             <?php the_content(); ?>
 
             <?php get_field('Event info') ?>
 
             <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
+            <p> <?php echo the_field('entrance') ?> </p>
+            <p> <?php echo the_field('date') ?> </p>
 
             <?php $categories = get_the_terms($post, 'category')  ?>
 
