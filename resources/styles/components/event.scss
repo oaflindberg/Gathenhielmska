@@ -1,11 +1,49 @@
-.single-event{
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-}
 
 .event-cards {
-    border: 1px solid black;
-    padding: 10px;
+   background-color: rgb(212, 212, 212);
     margin: 10px;
+    width: 320px;
+  height: 341px;
+  h3 {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.thumbnail {
+  width:320px;
+  height: 151px;
+}
+.event-text {
+  padding: 10px;
+}
+
+.single-post-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.single-event{
+  border: 1px solid black;
+  width: 320px;
+ 
+
+  img{
+    padding: 10px;
+    width: 315px;
+    height: 216px;
+  }
+}
+
+.single-event-text {
+  padding: 5px;
 }

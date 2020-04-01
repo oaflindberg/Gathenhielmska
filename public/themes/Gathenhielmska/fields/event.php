@@ -18,8 +18,8 @@ if (function_exists('acf_add_local_field_group')) :
                     'class' => '',
                     'id' => '',
                 ),
-                'display_format' => 'd/m/Y',
-                'return_format' => 'd/m/Y',
+                'display_format' => 'j F',
+                'return_format' => 'j F',
                 'first_day' => 1,
             ),
             array(
