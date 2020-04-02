@@ -49,8 +49,7 @@
 }
 
 .contact-paragraph {
-  text-align: center;
-  margin: 20px 20px 20px 0;
+  margin: 20px;
 }
 
 .collaborator {
@@ -83,6 +82,62 @@
 .nf-field-element ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.contact-image {
+  height: 380px;
+  width: 100vw;
+  background: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-wrapper {
+  margin-top: 20%;
+  background: #FAF2F0;
+  font-family: "Roboto", sans-serif;
+}
+
+.info-back-arrow {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.info-back-arrow a {
+  color: black;
+  text-decoration: none;
+}
+
+.info-back-arrow a:visited {
+  color: black;
+}
+
+.info-main {
+  margin: 20px;
+}
+
+.info-heading {
+  margin: 20px;
+}
+
+.info-subheading {
+  margin-left: 20px;
+}
+
+.info-paragraph {
+  margin: 20px;
+}
+
+.info-image {
+  margin: 0 20px 20px 20px;
+  width: calc(100vw-40px);
+  height: 200px;
+  background: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {

@@ -1,0 +1,47 @@
+
+.info-wrapper {
+  margin-top: 20%;
+  background: $white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info-back-arrow {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+  }
+}
+
+.info-main {
+  margin: 20px;
+}
+
+.info-heading {
+  margin: 20px;
+}
+
+.info-subheading {
+  margin-left: 20px;
+}
+
+.info-paragraph {
+  margin: 20px;
+}
+
+.info-image {
+  margin: 0 20px 20px 20px;
+  width: calc(100vw-40px);
+  height: 200px;
+  background: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

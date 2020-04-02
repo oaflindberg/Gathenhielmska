@@ -14,8 +14,7 @@
 }
 
 .contact-paragraph {
-  text-align: center;
-  margin: 20px 20px 20px 0;
+  margin: 20px;
 }
 
 .collaborator {
@@ -48,4 +47,13 @@
 .nf-field-element ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.contact-image {
+  height: 380px;
+  width: 100vw;
+  background: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
