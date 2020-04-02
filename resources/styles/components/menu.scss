@@ -1,0 +1,11 @@
+#responsive-menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    margin: 25px 0;
+  }
+}

@@ -34,6 +34,18 @@
   color: #FAF2F0;
 }
 
+#responsive-menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#responsive-menu li {
+  margin: 25px 0;
+}
+
 .contact-wrapper {
   margin-top: 20%;
   background: #FAF2F0;
