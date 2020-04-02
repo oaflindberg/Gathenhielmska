@@ -6,6 +6,7 @@
 @import './project/variables.scss';
 
 @import './components/navigation.scss';
+@import './components/contact.scss';
 @import './components/footer.scss';
 @import './components/event.scss';
 
@@ -19,52 +20,7 @@
 
 
 html {
-  background: $bg-color;
+  background: $white;
 }
 
-.contact-wrapper {
-  margin-top: 20%;
-  background: $bg-color;
-  font-family: 'Roboto', sans-serif;
-}
-
-.contact-main {
-  margin: 20px;
-}
-
-.contact-heading {
-  text-align: center;
-}
-
-.contact-paragraph {
-  text-align: center;
-  margin: 20px 20px 20px 0;
-}
-
-.collaborator {
-  margin: 20px;
-  text-align: center;
-
-  &-name {
-    font-weight: bold;
-  }
-
-  &-title {
-    font-weight: light;
-    font-style: italic;
-  }
-}
-
-.other-actor {
-  margin: 20px;
-  text-align: center;
-
-  &-title {
-    font-weight: bold;
-  }
-}
-
-.wp-block-ninja-forms-form {
-  margin: 20px;
-}
 
