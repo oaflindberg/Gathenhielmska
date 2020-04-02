@@ -85,8 +85,70 @@
   grid-template-columns: 1fr 1fr;
 }
 
+footer {
+  background-color: #112E33;
+  height: 434px;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h4 {
+  color: #E8680B;
+  font-size: 24px;
+}
+
+footer p {
+  color: white;
+}
+
+.contact-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.follow-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.follow-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.follow-wrapper img {
+  width: 36px;
+  height: 36px;
+}
+
+.sponsor-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sponsor-wrapper img {
+  width: 68px;
+  height: 68px;
+}
+
 .event-cards {
-  background-color: #EDC8BF;
+  background-color: #36717B;
   margin: 10px;
   width: 320px;
   height: 341px;
