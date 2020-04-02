@@ -25,13 +25,13 @@
 }
 
 .navigation ul li a {
-  color: black;
+  color: #FAF2F0;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 
 .navigation ul li a:visited {
-  color: black;
+  color: #FAF2F0;
 }
 
 .contact-wrapper {
