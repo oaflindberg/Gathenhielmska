@@ -264,6 +264,24 @@ footer p {
   padding: 5px;
 }
 
+.about-us {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.about-wrapper {
+  margin: 20px;
+}
+
+.about-wrapper div {
+  margin-bottom: 20px;
+}
+
+.about-wrapper div h3 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
 *,
 *::before,
 *::after {
