@@ -1,0 +1,63 @@
+
+
+footer {
+background-color: $darkBlue;
+height: 434px;
+bottom: 0;
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+h4 {
+    color: $orange;
+    font-size: 24px;
+}
+p {
+    color: white;
+}
+}
+
+
+.contact-us {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.follow-us {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.follow-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+    img{
+    width: 36px;
+    height: 36px;
+}
+}
+
+.sponsor-us {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sponsor-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    img{
+    width: 68px;
+    height: 68px;
+}
+
+}

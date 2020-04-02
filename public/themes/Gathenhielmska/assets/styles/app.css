@@ -34,6 +34,70 @@
   color: black;
 }
 
+footer {
+  background-color: #112E33;
+  height: 434px;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h4 {
+  color: #E8680B;
+  font-size: 24px;
+}
+
+footer p {
+  color: white;
+}
+
+.contact-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.follow-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.follow-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.follow-wrapper img {
+  width: 36px;
+  height: 36px;
+}
+
+.sponsor-us {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sponsor-wrapper img {
+  width: 68px;
+  height: 68px;
+}
+
+.event-cards {
+  background-color: #36717B;
 .contact-wrapper {
   margin-top: 20%;
   background: #FAF2F0;
@@ -144,6 +208,52 @@
 }
 
 html {
-  background: #FAF2F0;
+  background: #EDC8BF;
+}
+
+.contact-wrapper {
+  margin-top: 20%;
+  background: #EDC8BF;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-main {
+  margin: 20px;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-paragraph {
+  text-align: center;
+  margin: 20px 20px 20px 0;
+}
+
+.collaborator {
+  margin: 20px;
+  text-align: center;
+}
+
+.collaborator-name {
+  font-weight: bold;
+}
+
+.collaborator-title {
+  font-weight: light;
+  font-style: italic;
+}
+
+.other-actor {
+  margin: 20px;
+  text-align: center;
+}
+
+.other-actor-title {
+  font-weight: bold;
+}
+
+.wp-block-ninja-forms-form {
+  margin: 20px;
 }
 
