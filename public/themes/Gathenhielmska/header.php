@@ -10,6 +10,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <nav class="navigation-under">Gathenhielmska</nav>
     <header>
         <nav role="navigation" class="navigation">
             <?php wp_nav_menu(['theme_location' => 'navigation']); ?>

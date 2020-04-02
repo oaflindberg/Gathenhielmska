@@ -8,7 +8,18 @@
   justify-content: space-evenly;
   list-style-type: none;
   padding: 20px;
-  background: salmon;
+  background: #36717B;
+}
+
+.navigation-under {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background: #36717B;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 55px;
 }
 
 .navigation ul li a {
@@ -41,8 +52,13 @@
   box-sizing: border-box;
 }
 
+html {
+  background: #FAF2F0;
+}
+
 .contact-wrapper {
-  margin-top: 10%;
+  margin-top: 20%;
+  background: #FAF2F0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -52,6 +68,11 @@
 
 .contact-heading {
   text-align: center;
+}
+
+.contact-paragraph {
+  text-align: center;
+  margin: 20px 20px 20px 0;
 }
 
 .collaborator {

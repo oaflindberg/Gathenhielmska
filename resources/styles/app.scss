@@ -18,8 +18,13 @@
 }
 
 
+html {
+  background: $bg-color;
+}
+
 .contact-wrapper {
-  margin-top: 10%;
+  margin-top: 20%;
+  background: $bg-color;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -29,6 +34,11 @@
 
 .contact-heading {
   text-align: center;
+}
+
+.contact-paragraph {
+  text-align: center;
+  margin: 20px 20px 20px 0;
 }
 
 .collaborator {
