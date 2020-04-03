@@ -1,5 +1,11 @@
 @import "./../project/variables";
-
+.event-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .event-cards {
   background-color: $green;
     margin: 10px;
@@ -30,12 +36,15 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   
 }
 
 .single-event{
   border: 1px solid black;
   width: 320px;
+
  
 
   img{
@@ -47,4 +56,12 @@
 
 .single-event-text {
   padding: 5px;
+}
+
+.ticket-btn{
+  width:78px;
+  height: 23px;
+  color: white;
+  background-color: $orange;
+  border: none;
 }

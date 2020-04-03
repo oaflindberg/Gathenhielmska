@@ -28,7 +28,7 @@
 
                     <?php endforeach; ?>
 
-                    <button href="www.biletto.se">Tickets</button>
+                    <button class="ticket-btn" href="www.biletto.se">Tickets</button>
                 </div>
             <?php endwhile; ?>
         </div>
