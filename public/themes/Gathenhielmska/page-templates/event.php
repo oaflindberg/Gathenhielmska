@@ -21,6 +21,10 @@ $args = [
                 <div class="event-cards">
                     <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
                     <?php the_post_thumbnail('thumbnail'); ?>
+                    <div>
+                        <p class="entrance"> <?php echo the_field('entrance') ?> </p>
+                    </div>
+
                     <?php get_field('Event info') ?>
 
                     <div class="event-text">
@@ -33,15 +37,15 @@ $args = [
 
                         <p> <?php echo the_field('descript') ?></p>
 
-                        <p> <?php echo the_field('entrance') ?> </p>
+                        <div class="ticket-wrapper">
+                            <button class="ticket-btn" href="www.biletto.se">Tickets</button>
 
+                            <?php $categories = get_the_terms($post, 'category')  ?>
+                            <?php foreach ($categories as $category) : ?>
 
-                        <?php $categories = get_the_terms($post, 'category')  ?>
-                        <?php foreach ($categories as $category) : ?>
-                            <p> <?php echo 'Kategori: ' .  $category->name ?></p>
-                            <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
-                        <?php endforeach; ?>
-                        <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                                <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
 
                 </div>

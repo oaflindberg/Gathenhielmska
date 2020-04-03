@@ -246,6 +246,7 @@ footer p {
 
 .event-text {
   padding: 10px;
+  height: 190px;
 }
 
 .single-post-wrapper {
@@ -280,6 +281,27 @@ footer p {
   color: white;
   background-color: #E8680B;
   border: none;
+}
+
+.entrance {
+  width: 84px;
+  height: 23px;
+  background-color: #E8680B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-left: 180px;
+  z-index: 3;
+  color: white;
+}
+
+.ticket-wrapper {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 5px;
 }
 
 .about-us {
