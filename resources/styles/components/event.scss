@@ -73,12 +73,12 @@ height:190px;
   width:84px;
   height: 23px;
   background-color: $orange;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
   margin-left: 180px;
-  z-index: 3;
   color: white;
 }
 
