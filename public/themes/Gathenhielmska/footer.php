@@ -18,9 +18,9 @@
     <div class="follow-us">
       <h4>Följ oss</h4>
       <div class="follow-wrapper">
-        <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/facebook.svg" alt="facebook">
-        <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/instagram.svg" alt="instagram">
-        <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/youtube.svg" alt="youtube">
+        <a href="https://www.facebook.com/gathenhielmska/"> <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/facebook.svg" alt="facebook"> </a>
+        <a href="https://www.instagram.com/"> <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/instagram.svg" alt="instagram"> </a>
+        <a href="https://www.youtube.com/"> <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/youtube.svg" alt="youtube"> </a>
 
       </div>
     </div>
