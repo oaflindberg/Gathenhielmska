@@ -1,0 +1,34 @@
+.text-wrapper {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 70vh;
+    margin-top: -70vh;
+}
+
+.front-text{
+    color: $orange;
+    width: 60%;
+}
+
+.background-img{
+    margin-top: 15%;
+}
+
+.wrapper-front{
+    display: flex;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: start;
+}
+
+.card-front {
+    scroll-snap-align: center;
+}
+
+.test {
+ min-width: 100vw;
+ display: flex;
+ justify-content: center;
+}
