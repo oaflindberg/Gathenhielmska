@@ -1,15 +1,12 @@
 <?php get_header(); ?>
-<div class="single-post-wrapper">
+<div class="single-news-wrapper">
     <?php if (have_posts()) : ?>
-
-        <div class="single-event">
+        <div class="single-news">
             <?php while (have_posts()) : the_post(); ?>
-
-
                 <div class="single-news-container">
-                    <p><?php echo the_field('title') ?></p>
                     <img class="thumbnail-single" src="<?php the_field('image') ?>" alt="">
-                    <p> <?php echo the_field('Content') ?> </p>
+                    <h3><?php echo the_field('title') ?></h3>
+                    <p><?php echo the_field('content') ?> </p>
                 </div>
             <?php endwhile; ?>
         </div>

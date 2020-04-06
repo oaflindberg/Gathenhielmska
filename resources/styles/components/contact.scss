@@ -14,7 +14,10 @@
 }
 
 .contact-paragraph {
-  margin: 20px;
+  padding: 0 20px;
+  background: $green;
+  color: $white;
+
 }
 
 .collaborator {
@@ -40,8 +43,14 @@
   }
 }
 
-.wp-block-ninja-forms-form {
-  margin: 20px;
+.nf-form-layout {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/background/botten_v2.svg);
+  color: $white;
+
+  form {
+    padding: 20px 20px 80px 20px;
+    // margin: 0 20px 0 ;
+  }
 }
 
 .nf-field-element ul{
@@ -50,10 +59,21 @@
 }
 
 .contact-image {
+  margin-top: 40px;
   height: 380px;
   width: 100vw;
   background: salmon;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-heading-bg {
+  text-align: left;
+  padding: 40px 20px 20px 20px;
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/background/topp_v2.svg);
+}
+
+.contact-gold {
+  color: $gold;
 }

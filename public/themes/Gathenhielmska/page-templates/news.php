@@ -16,16 +16,24 @@ $args = [
 
     <div class="news-container">
         <?php foreach ($news as $post) : ?>
-
             <div class="news-cards">
-                <h3> <?php echo the_field('title') ?> </h3>
-                <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
-                <p class="news-short"> <?php echo the_field('description') ?></p>
-                <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer</a>
+                <?php if (get_field('image') != NULL) : ?>
+                    <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
+                    <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                    <p class="news-short"><?php echo the_field('description') ?></p>
+                    <div class="read-more-container">
+                        <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
+                    </div>
+                <?php else : ?>
+                    <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                    <p class="news-short"><?php echo the_field('description') ?></p>
+                    <div class="read-more-container">
+                        <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
+                    </div>
+                <?php endif; ?>
             </div>
-
+        <?php endforeach; ?>
     </div>
-<?php endforeach; ?>
-</div>
+    </div>
 <?php endif; ?>
 <?php get_footer(); ?>
