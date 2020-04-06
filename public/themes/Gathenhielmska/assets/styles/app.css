@@ -95,7 +95,41 @@
 }
 
 .nf-form-layout form {
-  padding: 20px 20px 80px 20px;
+  padding: 20px 20px 0 20px;
+}
+
+.nf-form-layout .nf-form-content input.ninja-forms-field {
+  height: 27px;
+}
+
+.nf-form-layout .nf-form-content textarea.ninja-forms-field {
+  height: 109px;
+}
+
+.nf-form-layout .submit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.nf-form-layout #nf-field-28-container {
+  width: 40%;
+}
+
+.nf-form-layout #nf-field-17-container {
+  width: 20%;
+}
+
+.nf-form-layout #nf-field-17 {
+  background: #E8680B;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  height: 35px;
 }
 
 .nf-field-element ul {
@@ -104,7 +138,6 @@
 }
 
 .contact-image {
-  margin-top: 40px;
   height: 380px;
   width: 100vw;
   background: salmon;
