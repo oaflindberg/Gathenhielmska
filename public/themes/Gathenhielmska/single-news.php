@@ -4,7 +4,7 @@
         <div class="single-news">
             <?php while (have_posts()) : the_post(); ?>
                 <div class="single-news-container">
-                    <img class="thumbnail-single" src="<?php the_field('image') ?>" alt="">
+                    <img class="single-news-thumbnail" src="<?php the_field('image') ?>" alt="">
                     <h3><?php echo the_field('title') ?></h3>
                     <p><?php echo the_field('content') ?> </p>
                 </div>
