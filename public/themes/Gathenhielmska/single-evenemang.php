@@ -9,7 +9,7 @@
 
                 <div class="single-event-text">
                     <p> <?php echo the_field('date') ?> </p>
-                    <p> <?php echo the_field('entrance') ?> </p>
+                    <p>Inträde: <?php echo the_field('entrance') ?> </p>
                     <h3><?php the_title(); ?></h3>
 
                     <!-- <?php $date = the_date($d = '', $before = '', $after = '',  $echo = true);
@@ -20,15 +20,15 @@
                     <?php get_field('Event info') ?>
 
 
-                    <?php $categories = get_the_terms($post, 'category')  ?>
+                    <div class="ticket-wrapper">
+                        <button class="ticket-btn" href="www.biletto.se">Tickets</button>
 
-                    <?php foreach ($categories as $category) : ?>
-                        <p> Kategori:</p>
-                        <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
+                        <?php $categories = get_the_terms($post, 'category')  ?>
+                        <?php foreach ($categories as $category) : ?>
 
-                    <?php endforeach; ?>
-
-                    <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                            <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
             <?php endwhile; ?>
         </div>

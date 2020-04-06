@@ -264,7 +264,10 @@ footer p {
 
 .event-text {
   padding: 10px;
-  height: 190px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .single-post-wrapper {
@@ -305,17 +308,16 @@ footer p {
   width: 84px;
   height: 23px;
   background-color: #E8680B;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
   margin-left: 180px;
-  z-index: 3;
   color: white;
 }
 
 .ticket-wrapper {
-  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

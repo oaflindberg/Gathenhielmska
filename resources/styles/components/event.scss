@@ -28,7 +28,10 @@
 }
 .event-text {
   padding: 10px;
-height:190px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
@@ -47,9 +50,6 @@ height:190px;
 .single-event{
   border: 1px solid black;
   width: 320px;
-
- 
-
   img{
     padding: 10px;
     width: 315px;
@@ -73,17 +73,16 @@ height:190px;
   width:84px;
   height: 23px;
   background-color: $orange;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
   margin-left: 180px;
-  z-index: 3;
   color: white;
 }
 
 .ticket-wrapper {
-  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
