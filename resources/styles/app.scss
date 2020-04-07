@@ -12,6 +12,8 @@
 @import './components/event.scss';
 @import './components/about.scss';
 @import './components/news.scss';
+@import './components/front-page.scss';
+@import './components/category.scss';
 
 
 
@@ -19,6 +21,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 }
 
 

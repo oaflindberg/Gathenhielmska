@@ -52,3 +52,4 @@ require get_template_directory() . '/taxonomies/entrance.php';
 require get_template_directory() . '/fields/event.php';
 require get_template_directory() . '/fields/about.php';
 require get_template_directory() . '/fields/news.php';
+require get_template_directory() . '/fields/front-page.php';

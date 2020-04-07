@@ -13,3 +13,47 @@ padding-top:20px;
         }
     }
 }
+
+.history-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.history-line {
+    border-left: 3px solid black;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.year-line {
+    border-bottom: 3px solid black;
+
+    width: 20px;
+
+    margin-left: -10px;
+
+}
+.history-test {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.year-text {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.year {
+    font-size: 20px;
+}
+
+.info-text {
+    font-size: 14px;
+    width: 60%;
+}

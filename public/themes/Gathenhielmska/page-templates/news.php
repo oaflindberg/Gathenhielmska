@@ -10,10 +10,7 @@ $args = [
 ];
 ?>
 <?php $news = get_posts($args); ?>
-
 <?php if (count($news)) : ?>
-
-
     <div class="news-container">
         <?php foreach ($news as $post) : ?>
             <div class="news-cards">

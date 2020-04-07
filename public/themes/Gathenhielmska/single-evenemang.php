@@ -10,10 +10,8 @@
                 <div class="single-event-text">
                     <p> <?php echo the_field('date') ?> </p>
                     <p>Inträde: <?php echo the_field('entrance') ?> </p>
-                    <h3><?php the_title(); ?></h3>
+                    <h3>Utsällning: <?php the_title(); ?></h3>
 
-                    <!-- <?php $date = the_date($d = '', $before = '', $after = '',  $echo = true);
-                            echo $date; ?> -->
 
                     <?php the_content(); ?>
 

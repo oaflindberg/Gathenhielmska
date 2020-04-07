@@ -58,7 +58,7 @@
 }
 
 .single-event-text {
-  padding: 5px;
+  padding: 20px;
 }
 
 .ticket-btn{
@@ -88,4 +88,10 @@
   align-items: flex-end;
   padding: 5px;
   
+}
+
+
+.category-wrapper{
+  display: flex;
+  flex-direction: column;
 }
