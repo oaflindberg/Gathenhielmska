@@ -326,7 +326,7 @@ footer p {
 }
 
 .single-event-text {
-  padding: 5px;
+  padding: 20px;
 }
 
 .ticket-btn {
@@ -355,6 +355,11 @@ footer p {
   justify-content: space-between;
   align-items: flex-end;
   padding: 5px;
+}
+
+.category-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-us {
@@ -525,6 +530,7 @@ footer p {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 html {

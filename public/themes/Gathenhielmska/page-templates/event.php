@@ -12,7 +12,9 @@ $args = [
 <?php $events = get_posts($args); ?>
 
 <?php if (count($events)) : ?>
-    <?php wp_list_categories('feed_type') ?>
+    <div class="category-wrapper">
+        <?php wp_list_categories('feed_type') ?>
+    </div>
     <div class="event-container">
         <?php foreach ($events as $post) : ?>
             <a href="<?php echo get_permalink($post); ?>">
