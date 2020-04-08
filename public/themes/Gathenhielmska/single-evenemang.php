@@ -8,7 +8,16 @@
                 <img class="thumbnail-single" src="<?php the_field('thumbnail') ?>" alt="">
 
                 <div class="single-event-text">
-                    <p> <?php echo the_field('date') ?> </p>
+                    <div class="time-info">
+                        <div>
+                            <p> <?php echo the_field('date') ?> </p>
+                            <p> <?php echo the_field('end_date') ?> </p>
+                        </div>
+                        <div>
+                            <p> <?php echo the_field('time') ?> </p>
+                            <p> <?php echo the_field('end_time') ?> </p>
+                        </div>
+                    </div>
                     <p>Inträde: <?php echo the_field('entrance') ?> </p>
                     <h3>Utsällning: <?php the_title(); ?></h3>
 

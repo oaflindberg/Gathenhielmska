@@ -70,6 +70,15 @@
   color: white;
 }
 
+.time-info{
+  display: flex;
+justify-content: space-between;
+width: 80%;
+  div {
+    display: flex;
+  }
+}
+
 .ticket-btn{
   width:78px;
   height: 23px;
