@@ -118,10 +118,6 @@ h3.contact-main {
   text-align: center;
 }
 
-.other-actor-title {
-  font-weight: bold;
-}
-
 .other-actor a {
   color: black;
   text-decoration: none;
@@ -175,7 +171,7 @@ h3.contact-main {
 .nf-form-layout #nf-field-17-container {
   margin: 0;
   width: 20%;
-  padding-bottom: 38px;
+  padding-bottom: 40px;
 }
 
 .nf-form-layout #nf-field-17 {

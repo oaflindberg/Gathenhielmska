@@ -63,10 +63,6 @@ h3.contact-main {
   margin: 20px;
   text-align: center;
 
-  &-title {
-    font-weight: bold;
-  }
-
   a {
     color: black;
     text-decoration: none;
@@ -80,7 +76,6 @@ h3.contact-main {
 .nf-form-layout {
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/botten_v2.svg);
   color: $white;
-  // margin-bottom: 80px;
   z-index: -1;
 
   a {
@@ -121,7 +116,7 @@ h3.contact-main {
   #nf-field-17-container {
     margin: 0;
     width: 20%;
-    padding-bottom: 38px;
+    padding-bottom: 40px;
   }
 
   #nf-field-17 {
