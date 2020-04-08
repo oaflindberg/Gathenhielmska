@@ -26,6 +26,14 @@
                             <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
                         <?php endforeach; ?>
                     </div>
+                    <div class="navigation">
+                        <div>
+                            <?php previous_post_link(); ?>
+                        </div>
+                        <div>
+                            <?php next_post_link(); ?>
+                        </div>
+                    </div>
                 </div>
             <?php endwhile; ?>
         </div>

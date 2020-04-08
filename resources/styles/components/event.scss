@@ -111,3 +111,13 @@
 .category-container{
   margin-top: 15%;
 }
+
+.navigation {
+ display: flex;
+ align-items: row;
+ justify-content: space-between;
+ a {
+   text-decoration: none;
+   color: white;
+ }
+}
