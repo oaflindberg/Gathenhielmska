@@ -1,6 +1,6 @@
 
 .contact-wrapper {
-  margin-top: 20%;
+  margin-top: 101px;
   background: $white;
   font-family: 'Roboto', sans-serif;
 }
@@ -80,6 +80,8 @@ h3.contact-main {
 .nf-form-layout {
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/botten_v2.svg);
   color: $white;
+  // margin-bottom: 80px;
+  z-index: -1;
 
   a {
     color: $pink;
@@ -119,6 +121,7 @@ h3.contact-main {
   #nf-field-17-container {
     margin: 0;
     width: 20%;
+    padding-bottom: 38px;
   }
 
   #nf-field-17 {
@@ -139,7 +142,8 @@ h3.contact-main {
 .contact-image {
   height: 380px;
   width: 100vw;
-  background: salmon;
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/background/blomma.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,5 +154,4 @@ h3.contact-main {
   padding: 40px 20px 20px 20px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/topp_v2.svg);
 }
-
 
