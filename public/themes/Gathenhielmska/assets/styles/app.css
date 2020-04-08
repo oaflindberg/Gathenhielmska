@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);/* WordPlate */
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);@charset "UTF-8";
+
+/* WordPlate */
 
 .navigation ul {
   width: 100vw;
@@ -217,12 +219,17 @@ h3.contact-main {
   color: black;
 }
 
+h2.info-main {
+  color: #E8680B;
+}
+
 .info-main {
   margin: 20px;
 }
 
 .info-heading {
   margin: 20px;
+  color: #E8680B;
 }
 
 .info-subheading {
@@ -241,6 +248,44 @@ h3.contact-main {
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
+}
+
+.salongen {
+  height: 200px;
+  width: 320px;
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Salongen.png);
+  background-size: cover;
+}
+
+.italia {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Italiarummet.png);
+  background-size: cover;
+}
+
+.kungasalen {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Kungasalen.png);
+  background-size: cover;
+}
+
+.versailles {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/VersaillesRummet.png);
+  background-size: cover;
+}
+
+.galleriet {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Galleriet.png);
+  background-size: cover;
+}
+
+.biografen {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Biografen.png);
+  background-size: cover;
+}
+
+.trädgården {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Trädgården.png);
+  background-size: cover;
 }
 
 footer {
@@ -511,6 +556,7 @@ footer p {
 }
 
 .news-container .news-cards {
+  height: 382px;
   width: calc(100vw - 40px);
   margin: 20px;
   display: flex;
@@ -518,15 +564,34 @@ footer p {
   flex-wrap: wrap;
 }
 
+.news-container .news-thumbnail {
+  height: 210px;
+  width: calc(100vw - 40px);
+}
+
+.news-container .news-content-container {
+  width: calc(100vw - 40px);
+  height: 172px;
+  background: #12495F;
+  color: #FAF2F0;
+  padding: 16px;
+}
+
 .news-container .read-more-container {
   width: calc(100vw - 40px);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .news-container .read-more-container .read-more {
   text-decoration: none;
   color: black;
+}
+
+.news-container .read-more-container .read-more-btn {
+  padding: 5px 10px;
+  color: #FAF2F0;
+  background: #E8680B;
 }
 
 .single-news {

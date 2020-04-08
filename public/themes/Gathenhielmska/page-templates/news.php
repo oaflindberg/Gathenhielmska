@@ -6,7 +6,7 @@ $args = [
     'numberposts' => 10,
     'post_type' => 'News',
     'orderby' => 'date',
-    'order' => 'ASC'
+    'order' => 'DESC'
 ];
 ?>
 <?php $news = get_posts($args); ?>
@@ -16,16 +16,20 @@ $args = [
             <div class="news-cards">
                 <?php if (get_field('image') != NULL) : ?>
                     <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
-                    <h3 class="news-title"><?php echo the_field('title') ?> </h3>
-                    <p class="news-short"><?php echo the_field('description') ?></p>
-                    <div class="read-more-container">
-                        <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
+                    <div class="news-content-container">
+                        <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                        <p class="news-short"><?php echo the_field('description') ?></p>
+                        <div class="read-more-container">
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer...</button></a>
+                        </div>
                     </div>
                 <?php else : ?>
-                    <h3 class="news-title"><?php echo the_field('title') ?> </h3>
-                    <p class="news-short"><?php echo the_field('description') ?></p>
-                    <div class="read-more-container">
-                        <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
+                    <div class="news-content-container">
+                        <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                        <p class="news-short"><?php echo the_field('description') ?></p>
+                        <div class="read-more-container">
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer...</button></a>
+                        </div>
                     </div>
                 <?php endif; ?>
             </div>
