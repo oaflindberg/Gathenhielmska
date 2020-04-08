@@ -380,6 +380,17 @@ footer p {
   margin-top: 15%;
 }
 
+.navigation {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
 .about-us {
   padding-left: 20px;
   padding-top: 20px;
