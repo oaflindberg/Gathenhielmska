@@ -56,14 +56,39 @@
   margin: 20px;
 }
 
+h3.contact-main {
+  color: #E8680B;
+}
+
+.contact-gold {
+  color: #E8680B;
+  font-size: 36px;
+  font-weight: bold;
+}
+
 .contact-heading {
   text-align: center;
+  color: #E8680B;
+}
+
+.contact-heading-left {
+  text-align: left;
+  padding: 20px;
 }
 
 .contact-paragraph {
   padding: 0 20px;
   background: #36717B;
   color: #FAF2F0;
+}
+
+.contact-paragraph a {
+  color: #EDC8BF;
+  text-decoration: none;
+}
+
+.contact-paragraph a:visited {
+  color: #EDC8BF;
 }
 
 .collaborator {
@@ -89,9 +114,27 @@
   font-weight: bold;
 }
 
+.other-actor a {
+  color: black;
+  text-decoration: none;
+}
+
+.other-actor a:visited {
+  color: black;
+}
+
 .nf-form-layout {
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/botten_v2.svg);
   color: #FAF2F0;
+}
+
+.nf-form-layout a {
+  color: #EDC8BF;
+  text-decoration: none;
+}
+
+.nf-form-layout a:visited {
+  color: #EDC8BF;
 }
 
 .nf-form-layout form {
@@ -151,10 +194,6 @@
   text-align: left;
   padding: 40px 20px 20px 20px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/topp_v2.svg);
-}
-
-.contact-gold {
-  color: #E9E096;
 }
 
 .info-wrapper {
@@ -514,7 +553,7 @@ footer p {
       scroll-snap-type: x mandatory;
   flex-direction: row;
   overflow-x: scroll;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .card-front {
