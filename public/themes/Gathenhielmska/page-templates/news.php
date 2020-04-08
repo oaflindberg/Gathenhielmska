@@ -20,7 +20,7 @@ $args = [
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('description') ?></p>
                         <div class="read-more-container">
-                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer...</button></a>
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
                         </div>
                     </div>
                 <?php else : ?>
@@ -28,7 +28,7 @@ $args = [
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('description') ?></p>
                         <div class="read-more-container">
-                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer...</button></a>
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
                         </div>
                     </div>
                 <?php endif; ?>

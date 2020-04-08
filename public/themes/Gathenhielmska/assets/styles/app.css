@@ -577,6 +577,10 @@ footer p {
   padding: 16px;
 }
 
+.news-container .news-short {
+  padding: 16px 0;
+}
+
 .news-container .read-more-container {
   width: calc(100vw - 40px);
   display: flex;
@@ -589,9 +593,12 @@ footer p {
 }
 
 .news-container .read-more-container .read-more-btn {
-  padding: 5px 10px;
+  padding: 4px 8px;
+  font-size: 13px;
+  line-height: 16px;
   color: #FAF2F0;
   background: #E8680B;
+  border: none;
 }
 
 .single-news {
