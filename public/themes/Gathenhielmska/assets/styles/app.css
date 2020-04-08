@@ -556,6 +556,7 @@ footer p {
 }
 
 .news-container .news-cards {
+  height: 382px;
   width: calc(100vw - 40px);
   margin: 20px;
   display: flex;
@@ -563,15 +564,34 @@ footer p {
   flex-wrap: wrap;
 }
 
+.news-container .news-thumbnail {
+  height: 210px;
+  width: calc(100vw - 40px);
+}
+
+.news-container .news-content-container {
+  width: calc(100vw - 40px);
+  height: 172px;
+  background: #12495F;
+  color: #FAF2F0;
+  padding: 16px;
+}
+
 .news-container .read-more-container {
   width: calc(100vw - 40px);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .news-container .read-more-container .read-more {
   text-decoration: none;
   color: black;
+}
+
+.news-container .read-more-container .read-more-btn {
+  padding: 5px 10px;
+  color: #FAF2F0;
+  background: #E8680B;
 }
 
 .single-news {

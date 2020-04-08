@@ -9,6 +9,7 @@
   }
 
   .news-cards {
+    height: 382px;
     width: calc(100vw - 40px);
     margin: 20px;
     display: flex;
@@ -16,14 +17,33 @@
     flex-wrap: wrap;
   }
 
+  .news-thumbnail {
+    height: 210px;
+    width: calc(100vw - 40px);
+  }
+
+  .news-content-container {
+    width: calc(100vw - 40px);
+    height: 172px;
+    background: $blueGathen;
+    color: $white;
+    padding: 16px;
+  }
+
   .read-more-container {
     width: calc(100vw - 40px);
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
     .read-more {
       text-decoration: none;
       color: black;
+    }
+
+    .read-more-btn {
+      padding: 5px 10px;
+      color: $white;
+      background: $orange;
     }
   }
 
