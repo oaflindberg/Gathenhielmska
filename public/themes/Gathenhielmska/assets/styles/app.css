@@ -275,7 +275,8 @@ footer p {
 }
 
 .event-cards {
-  background-color: #36717B;
+  background-color: #12495F;
+  color: white;
   margin: 10px;
   width: 320px;
   height: 341px;
@@ -284,6 +285,11 @@ footer p {
 .event-cards h3 {
   font-size: 18px;
   text-decoration: none;
+  color: white;
+}
+
+.event-cards p {
+  color: white;
 }
 
 .event-cards a {
@@ -297,6 +303,7 @@ footer p {
 }
 
 .event-text {
+  margin-top: 10px;
   padding: 10px;
   height: 160px;
   display: flex;
@@ -310,14 +317,14 @@ footer p {
   width: 100vw;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10%;
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
 .single-event {
-  border: 1px solid black;
   width: 320px;
+  background-color: #12495F;
 }
 
 .single-event img {
@@ -328,6 +335,7 @@ footer p {
 
 .single-event-text {
   padding: 20px;
+  color: white;
 }
 
 .ticket-btn {
@@ -339,15 +347,15 @@ footer p {
 }
 
 .entrance {
-  width: 84px;
-  height: 23px;
+  width: 51px;
+  height: 24px;
   background-color: #E8680B;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
-  margin-left: 180px;
+  margin-top: -40px;
+  margin-left: 260px;
   color: white;
 }
 
@@ -355,12 +363,21 @@ footer p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 5px;
+  padding: 10px;
 }
 
-.category-wrapper {
+.categories ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 20%;
+}
+
+.categories ul li {
+  text-decoration: none;
+}
+
+.category-container {
+  margin-top: 15%;
 }
 
 .about-us {

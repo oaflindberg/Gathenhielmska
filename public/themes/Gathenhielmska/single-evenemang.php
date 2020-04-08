@@ -17,7 +17,6 @@
 
                     <?php get_field('Event info') ?>
 
-
                     <div class="ticket-wrapper">
                         <button class="ticket-btn" href="www.biletto.se">Tickets</button>
 

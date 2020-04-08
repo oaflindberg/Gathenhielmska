@@ -1,12 +1,7 @@
-<?php
-/*
-Template Name: Archives
-*/
-?>
-
 <?php get_header(); ?>
 <?php
 $terms = get_terms('category');
+
 $id = get_queried_object()->term_id;
 
 $terms_query = new WP_Query(array(
@@ -25,28 +20,30 @@ $terms_query = new WP_Query(array(
 
 <?php if ($terms_query->have_posts()) : ?>
     <?php while ($terms_query->have_posts()) : $terms_query->the_post(); ?>
-        <a href="<?php echo get_permalink($post); ?>">
-            <div class="event-cards">
-                <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
-                <?php the_post_thumbnail('thumbnail'); ?>
-                <div>
-                    <p class="entrance"> <?php echo the_field('entrance') ?> </p>
-                </div>
-                <?php get_field('Event info') ?>
-                <div class="event-text">
-                    <h3><?php echo $post->post_title; ?></h3>
-                    <p> <?php echo the_field('date') ?> </p>
-                    <p> <?php echo the_field('descript') ?></p>
-                    <div class="ticket-wrapper">
-                        <button class="ticket-btn" href="www.biletto.se">Tickets</button>
-                        <?php $categories = get_the_terms($post, 'category')  ?>
-                        <?php foreach ($categories as $category) : ?>
-                            <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
-                        <?php endforeach; ?>
+        <div class="event-container category-container">
+            <a href="<?php echo get_permalink($post); ?>">
+                <div class="event-cards">
+                    <img class="thumbnail" src="<?php the_field('thumbnail') ?>" alt="">
+                    <?php the_post_thumbnail('thumbnail'); ?>
+                    <div>
+                        <p class="entrance"> <?php echo the_field('entrance') ?> </p>
+                    </div>
+                    <?php get_field('Event info') ?>
+                    <div class="event-text">
+                        <h3><?php echo $post->post_title; ?></h3>
+                        <p> <?php echo the_field('date') ?> </p>
+                        <p> <?php echo the_field('descript') ?></p>
+                        <div class="ticket-wrapper">
+                            <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                            <?php $categories = get_the_terms($post, 'category')  ?>
+                            <?php foreach ($categories as $category) : ?>
+                                <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     <?php endwhile; ?>
 <?php endif; ?>
 <?php

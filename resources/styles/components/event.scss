@@ -7,17 +7,23 @@
   justify-content: center;
 }
 .event-cards {
-  background-color: $green;
+  background-color: $blue;
+  color: white;
     margin: 10px;
     width: 320px;
   height: 341px;
   h3 {
     font-size: 18px;
     text-decoration: none;
+    color: white;
+  }
+  p{
+    color: white;
   }
   a {
     color: black;
     text-decoration: none;
+    
   }
 }
 
@@ -27,6 +33,7 @@
 
 }
 .event-text {
+  margin-top: 10px;
   padding: 10px;
   height: 160px;
   display: flex;
@@ -41,15 +48,16 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10%;
   padding-top: 60px;
   padding-bottom: 40px;
   
 }
 
 .single-event{
-  border: 1px solid black;
   width: 320px;
+  background-color: $blue;
+ 
   img{
     padding: 10px;
     width: 315px;
@@ -59,6 +67,7 @@
 
 .single-event-text {
   padding: 20px;
+  color: white;
 }
 
 .ticket-btn{
@@ -70,15 +79,15 @@
 }
 
 .entrance{
-  width:84px;
-  height: 23px;
+  width:51px;
+  height: 24px;
   background-color: $orange;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
-  margin-left: 180px;
+  margin-top: -40px;
+  margin-left: 260px;
   color: white;
 }
 
@@ -86,12 +95,19 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 5px;
+  padding: 10px;
   
 }
 
 
-.category-wrapper{
+.categories ul{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 20%;
+  li {
+    text-decoration: none;
+  }
+}
+.category-container{
+  margin-top: 15%;
 }
