@@ -20,12 +20,17 @@
   }
 }
 
+h2.info-main {
+  color: $orange;
+}
+
 .info-main {
   margin: 20px;
 }
 
 .info-heading {
   margin: 20px;
+  color: $orange;
 }
 
 .info-subheading {
@@ -44,4 +49,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
+}
+
+.salongen {
+  height: 200px;
+  width: 320px;
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Salongen.png);
+  background-size: cover;
+}
+
+.italia {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Italiarummet.png);
+  background-size: cover;
+}
+
+.kungasalen {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Kungasalen.png);
+  background-size: cover;
+}
+
+.versailles {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/VersaillesRummet.png);
+  background-size: cover;
+}
+
+.galleriet {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Galleriet.png);
+  background-size: cover;
+}
+
+.biografen {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Biografen.png);
+  background-size: cover;
+}
+
+.trädgården {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Trädgården.png);
+  background-size: cover;
 }
