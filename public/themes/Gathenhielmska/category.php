@@ -31,7 +31,16 @@ $terms_query = new WP_Query(array(
                     <?php get_field('Event info') ?>
                     <div class="event-text">
                         <h3><?php echo $post->post_title; ?></h3>
-                        <p> <?php echo the_field('date') ?> </p>
+                        <div class="time-info">
+                            <div>
+                                <p> <?php echo the_field('date') ?> </p>
+                                <p> <?php echo the_field('end_date') ?> </p>
+                            </div>
+                            <div>
+                                <p> <?php echo the_field('time') ?> </p>
+                                <p> <?php echo the_field('end_time') ?> </p>
+                            </div>
+                        </div>
                         <p> <?php echo the_field('descript') ?></p>
                         <div class="ticket-wrapper">
                             <button class="ticket-btn" href="www.biletto.se">Tickets</button>

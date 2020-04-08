@@ -674,6 +674,21 @@ footer p {
   width: 100%;
 }
 
+.category-list {
+  display: flex;
+  margin-top: 15%;
+  justify-content: space-between;
+}
+
+.category-list p {
+  color: black;
+  text-decoration: none;
+}
+
+.category-list a {
+  text-decoration: none;
+}
+
 *,
 *::before,
 *::after {

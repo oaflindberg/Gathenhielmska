@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div class="single-post-wrapper">
+
     <?php if (have_posts()) : ?>
 
         <div class="single-event">
