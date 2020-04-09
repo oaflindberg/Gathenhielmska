@@ -28,6 +28,24 @@ $args = [
 ?>
 <?php $events = get_posts($args); ?>
 <h3>Kommande evenemang</h3>
+
+<?php
+
+$terms = get_terms(array(
+    'taxonomy' => 'category',
+    'hide_empty' => false,
+)); ?>
+<div class="category-list">
+    <?php foreach ($terms as $term) : ?>
+
+        <a href="<?php echo get_term_link($term) ?> ">
+            <img src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
+            <p> <?php echo get_field('title', $term)  ?></p>
+        </a>
+
+    <?php endforeach; ?>
+</div>
+
 <?php if (count($events)) : ?>
     <div class="event-container wrapper-front">
         <?php foreach ($events as $post) : ?>

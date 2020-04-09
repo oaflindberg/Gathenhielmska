@@ -30,7 +30,9 @@ $terms_query = new WP_Query(array(
                     </div>
                     <?php get_field('Event info') ?>
                     <div class="event-text">
-                        <h3><?php echo $post->post_title; ?></h3>
+                        <div>
+                            <h3><?php echo $post->post_title; ?></h3>
+                        </div>
                         <div class="time-info">
                             <div>
                                 <p> <?php echo the_field('date') ?> </p>

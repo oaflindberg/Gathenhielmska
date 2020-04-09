@@ -22,7 +22,7 @@ if (function_exists('acf_add_local_field_group')) :
                 'placeholder' => '',
                 'prepend' => '',
                 'append' => '',
-                'maxlength' => '',
+                'maxlength' => '130',
             ),
             array(
                 'key' => 'field_5e837cc067936',

@@ -41,8 +41,9 @@ $terms = get_terms(array(
                     </div>
                     <?php get_field('Event info') ?>
                     <div class="event-text">
-                        <h3><?php echo $post->post_title; ?></h3>
-
+                        <div>
+                            <h3><?php echo $post->post_title; ?></h3>
+                        </div>
 
                         <div class="time-info">
                             <div>
@@ -54,8 +55,9 @@ $terms = get_terms(array(
                                 <p> <?php echo the_field('end_time') ?> </p>
                             </div>
                         </div>
-
-                        <p> <?php echo the_field('descript') ?></p>
+                        <div>
+                            <p> <?php echo the_field('descript') ?></p>
+                        </div>
                         <div class="ticket-wrapper">
                             <button class="ticket-btn" href="www.biletto.se">Tickets</button>
                             <?php $categories = get_the_terms($post, 'category')  ?>

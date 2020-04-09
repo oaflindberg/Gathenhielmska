@@ -1,5 +1,6 @@
 @import "./../project/variables";
 .event-container{
+ 
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -10,7 +11,7 @@
   background-color: $blue;
   color: white;
     margin: 10px;
-    width: 320px;
+    width: calc(100vw - 40px);
   height: 341px;
   h3 {
     font-size: 18px;
@@ -28,17 +29,20 @@
 }
 
 .thumbnail {
-  width:320px;
+  width: calc(100vw - 40px);
   height: 151px;
 
 }
 .event-text {
   margin-top: 10px;
   padding: 10px;
-  height: 160px;
+  height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  div{
+    padding: 5px 0px 5px 0px;
+  }
 
 }
 
@@ -48,26 +52,29 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
-  padding-top: 60px;
+  margin-top: 101px;
+
   padding-bottom: 40px;
   
 }
 
 .single-event{
-  width: 320px;
+  width: calc(100vw - 40px);
   background-color: $blue;
  
   img{
     padding: 10px;
-    width: 315px;
+    width: calc(100vw - 40px);
     height: 216px;
   }
 }
 
 .single-event-text {
-  padding: 20px;
+  padding: 10px;
   color: white;
+  div {
+    padding: 5px 0px 5px 0px;
+  }
 }
 
 .time-info{
@@ -104,7 +111,6 @@ width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 10px;
   
 }
 
@@ -112,13 +118,13 @@ width: 80%;
 .categories ul{
   display: flex;
   flex-direction: row;
-  margin-top: 20%;
+  margin-top: 101px;
   li {
     text-decoration: none;
   }
 }
 .category-container{
-  margin-top: 15%;
+  margin-top: 101px;
 }
 
 .navigation {

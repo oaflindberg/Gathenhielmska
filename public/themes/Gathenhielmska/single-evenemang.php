@@ -19,13 +19,18 @@
                             <p> <?php echo the_field('end_time') ?> </p>
                         </div>
                     </div>
-                    <p>Inträde: <?php echo the_field('entrance') ?> </p>
-                    <h3>Utsällning: <?php the_title(); ?></h3>
+                    <div>
+                        <p>Inträde: <?php echo the_field('entrance') ?> </p>
+                    </div>
+                    <div>
+                        <h3>Utställning: <?php the_title(); ?></h3>
+                    </div>
 
+                    <div>
+                        <?php the_content(); ?>
 
-                    <?php the_content(); ?>
+                    </div>
 
-                    <?php get_field('Event info') ?>
 
                     <div class="ticket-wrapper">
                         <button class="ticket-btn" href="www.biletto.se">Tickets</button>
