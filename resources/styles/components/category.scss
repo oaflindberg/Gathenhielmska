@@ -28,3 +28,15 @@
         text-decoration: none;
     }
 }
+
+.categories ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 101px;
+    li {
+      text-decoration: none;
+    }
+  }
+  .category-container{
+    margin-top: 101px;
+  }
