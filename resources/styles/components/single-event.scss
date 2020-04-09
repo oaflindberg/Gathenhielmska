@@ -1,0 +1,43 @@
+.single-post-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 101px;
+  
+    padding-bottom: 40px;
+    
+  }
+  
+  .single-event{
+    width: calc(100vw - 40px);
+    background-color: $blue;
+   
+    img{
+      padding: 10px;
+      width: calc(100vw - 40px);
+      height: 216px;
+    }
+  }
+  
+  .single-event-text {
+    padding: 10px;
+    color: white;
+    div {
+      padding: 5px 0px 5px 0px;
+    }
+  }
+  
+  .upcoming-event{
+   display: flex; 
+   flex-direction: column;
+   color: black;
+  }
+  .icon-event{
+    display: flex;
+  img{
+    margin-right: 10px;
+  }
+  }
+  

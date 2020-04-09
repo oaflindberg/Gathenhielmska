@@ -56,4 +56,38 @@
 
 </div>
 
+
+<div>
+
+    <h3>Kommande evenemang</h3>
+
+    <?php
+    $args = [
+        'numberposts' => 5,
+        'post_type' => 'Evenemang',
+        'orderby' => 'date',
+        'order' => 'ASC'
+    ];
+    ?>
+
+    <?php $events = get_posts($args); ?>
+
+    <?php foreach ($events as $event) : ?>
+
+        <a href="<?php echo get_permalink($event); ?>">
+            <div class="upcoming-event">
+                <div class="icon-event">
+                    <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/calender.svg" alt="calender">
+                    <p> <?php echo the_field('date') ?> </p>
+                    <p> <?php echo the_field('time') ?> </p>
+                </div>
+                <div>
+                    <p><?php echo $event->post_title; ?></p>
+                </div>
+            </div>
+
+        </a>
+    <?php endforeach; ?>
+</div>
+
 <?php get_footer(); ?>
