@@ -45,7 +45,7 @@ $terms_query = new WP_Query(array(
                         </div>
                         <p> <?php echo the_field('descript') ?></p>
                         <div class="ticket-wrapper">
-                            <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                            <button class="ticket-btn" href="www.biletto.se">Boka plats</button>
                             <?php $categories = get_the_terms($post, 'category')  ?>
                             <?php foreach ($categories as $category) : ?>
                                 <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>

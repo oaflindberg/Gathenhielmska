@@ -294,8 +294,9 @@ h2.info-main {
   background-size: cover;
 }
 
-footer {
-  background-color: #112E33;
+.footer-wrapper {
+  background-image: url(/../../../themes/Gathenhielmska/assets/images/background/footer_mobile.svg);
+  background-size: cover;
   height: 434px;
   bottom: 0;
   padding: 30px;
@@ -304,12 +305,12 @@ footer {
   justify-content: space-between;
 }
 
-footer h4 {
+.footer-wrapper h4 {
   color: #E8680B;
   font-size: 24px;
 }
 
-footer p {
+.footer-wrapper p {
   color: white;
 }
 

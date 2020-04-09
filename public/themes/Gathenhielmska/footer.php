@@ -1,6 +1,8 @@
-  <?php wp_footer(); ?>
+<?php wp_footer(); ?>
 
-  <footer>
+<footer>
+
+  <div class="footer-wrapper">
     <div class="contact-us">
       <div>
         <h4>Kontakta oss!</h4>
@@ -36,7 +38,10 @@
 
       </div>
     </div>
-  </footer>
-  </body>
 
-  </html>
+  </div>
+
+</footer>
+</body>
+
+</html>
