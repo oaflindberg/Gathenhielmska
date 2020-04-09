@@ -58,6 +58,13 @@ $args = [
     </div>
 <?php endif; ?>
 
+<?php $post = get_post(7); ?>
+
+<img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
+<div class=" second-text">
+    <p class="second-text"><?php the_field('second_text'); ?></p>
+</div>
+
 <?php
 $args = [
     'numberposts' => 10,
@@ -69,7 +76,7 @@ $args = [
 <?php $news = get_posts($args); ?>
 <h3>Nyheter</h3>
 <?php if (count($news)) : ?>
-    <div class="news-container wrapper-front">
+    <div class=" news-container wrapper-front">
         <?php foreach ($news as $post) : ?>
             <div class="test">
                 <div class=" card-front news-cards">
@@ -94,5 +101,8 @@ $args = [
     </div>
 <?php endif; ?>
 
+<?php $post = get_post(7); ?>
+
+<img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/images/bird-frontpage.png" alt="background">
 
 <?php get_footer(); ?>

@@ -1,5 +1,4 @@
 <?php
-
 if (function_exists('acf_add_local_field_group')) :
 
     acf_add_local_field_group(array(
@@ -8,8 +7,8 @@ if (function_exists('acf_add_local_field_group')) :
         'fields' => array(
             array(
                 'key' => 'field_5e8affcee0682',
-                'label' => 'Background',
-                'name' => 'background',
+                'label' => 'Backgorund',
+                'name' => 'backgorund',
                 'type' => 'image',
                 'instructions' => '',
                 'required' => 1,
@@ -36,6 +35,25 @@ if (function_exists('acf_add_local_field_group')) :
                 'name' => 'text',
                 'type' => 'text',
                 'instructions' => 'Text that will be shown on the front page',
+                'required' => 1,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+            ),
+            array(
+                'key' => 'field_5e8ed91284541',
+                'label' => 'Second text',
+                'name' => 'second_text',
+                'type' => 'text',
+                'instructions' => '',
                 'required' => 1,
                 'conditional_logic' => 0,
                 'wrapper' => array(
