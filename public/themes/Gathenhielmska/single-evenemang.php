@@ -23,7 +23,7 @@
                         <p>Inträde: <?php echo the_field('entrance') ?> </p>
                     </div>
                     <div>
-                        <h3>Utställning: <?php the_title(); ?></h3>
+                        <h3> <?php the_title(); ?></h3>
                     </div>
 
                     <div>
@@ -33,7 +33,7 @@
 
 
                     <div class="ticket-wrapper">
-                        <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                        <button class="ticket-btn" href="www.biletto.se">Boka plats</button>
 
                         <?php $categories = get_the_terms($post, 'category')  ?>
                         <?php foreach ($categories as $category) : ?>
