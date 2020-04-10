@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 101px;
-  
     padding-bottom: 40px;
     
   }
@@ -29,13 +28,35 @@
     }
   }
   
+.upcoming{
+  width: calc(100vw - 40px);
+  h3{
+    color: $orange;
+    margin-bottom: 5px;
+  }
+}
+
+.upcoming-title {
+  margin-top: 3px;
+}
+.upcoming-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
   .upcoming-event{
    display: flex; 
    flex-direction: column;
    color: black;
+   padding: 5px 0px 5px 0px;
   }
   .icon-event{
     display: flex;
+    div {
+      display: flex;
+      margin:0px 3px;
+
+    }
   img{
     margin-right: 10px;
   }

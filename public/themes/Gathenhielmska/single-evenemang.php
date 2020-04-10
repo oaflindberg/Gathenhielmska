@@ -57,37 +57,49 @@
 </div>
 
 
-<div>
+<div class="upcoming-wrapper">
 
-    <h3>Kommande evenemang</h3>
+    <div class="upcoming">
 
-    <?php
-    $args = [
-        'numberposts' => 5,
-        'post_type' => 'Evenemang',
-        'orderby' => 'date',
-        'order' => 'ASC'
-    ];
-    ?>
+        <h3>Kommande evenemang</h3>
 
-    <?php $events = get_posts($args); ?>
+        <?php
+        $args = [
+            'numberposts' => 5,
+            'post_type' => 'Evenemang',
+            'orderby' => 'date',
+            'order' => 'ASC'
+        ];
+        ?>
 
-    <?php foreach ($events as $event) : ?>
+        <?php $events = get_posts($args); ?>
 
-        <a href="<?php echo get_permalink($event); ?>">
-            <div class="upcoming-event">
-                <div class="icon-event">
-                    <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/calender.svg" alt="calender">
-                    <p> <?php echo the_field('date') ?> </p>
-                    <p> <?php echo the_field('time') ?> </p>
+        <?php foreach ($events as $hej) : ?>
+
+            <a href="<?php echo get_permalink($hej); ?>">
+                <div class="upcoming-event">
+                    <div class="icon-event">
+
+                        <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/calender.svg" alt="calender">
+                        <div>
+                            <p> <?php echo the_field('date')  ?> </p>
+                            <p> <?php echo the_field('end_date') ?> </p>
+                        </div>
+                        <div>
+                            <p> <?php echo the_field('time') ?> </p>
+                            <p> <?php echo the_field('end_time') ?> </p>
+
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <p class="upcoming-title"><?php echo $hej->post_title; ?></p>
+                    </div>
                 </div>
-                <div>
-                    <p><?php echo $event->post_title; ?></p>
-                </div>
-            </div>
 
-        </a>
-    <?php endforeach; ?>
+            </a>
+        <?php endforeach; ?>
+    </div>
 </div>
-
 <?php get_footer(); ?>
