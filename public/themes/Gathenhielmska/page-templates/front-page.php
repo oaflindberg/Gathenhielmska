@@ -13,7 +13,7 @@
 </div>
 </div> -->
 
-<img class="background-img" src="<?php the_field('background') ?>" alt="">
+<img class="background-img" src="<?php the_field('backgorund') ?>" alt="">
 <div class="text-wrapper">
     <h4 class="front-text"> <?php the_field('text') ?> </h4>
 </div>
@@ -100,21 +100,15 @@ $args = [
     <div class=" news-container wrapper-front">
         <?php foreach ($news as $post) : ?>
             <div class="test">
-                <div class=" card-front news-cards">
-                    <?php if (get_field('image') != NULL) : ?>
-                        <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
+                <div class="news-cards">
+                    <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
+                    <div class="news-content-container">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('description') ?></p>
                         <div class="read-more-container">
-                            <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
                         </div>
-                    <?php else : ?>
-                        <h3 class="news-title"><?php echo the_field('title') ?> </h3>
-                        <p class="news-short"><?php echo the_field('description') ?></p>
-                        <div class="read-more-container">
-                            <a class="read-more" href="<?php echo get_permalink($post); ?>">Läs mer...</a>
-                        </div>
-                    <?php endif; ?>
+                    </div>
                 </div>
             </div>
         <?php endforeach; ?>
