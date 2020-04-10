@@ -12,6 +12,7 @@
     <?php endif; ?>
 </div>
 </div> -->
+
 <img class="background-img" src="<?php the_field('background') ?>" alt="">
 <div class="text-wrapper">
     <h4 class="front-text"> <?php the_field('text') ?> </h4>
@@ -77,7 +78,8 @@ $terms = get_terms(array(
     </div>
 <?php endif; ?>
 
-<?php $post = get_post(7); ?>
+<!-- A: 182, M: 7 -->
+<?php $post = get_post(182); ?>
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
 <div class=" second-text">
