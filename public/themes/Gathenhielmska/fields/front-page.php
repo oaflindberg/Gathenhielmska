@@ -7,8 +7,8 @@ if (function_exists('acf_add_local_field_group')) :
         'fields' => array(
             array(
                 'key' => 'field_5e8affcee0682',
-                'label' => 'Backgorund',
-                'name' => 'backgorund',
+                'label' => 'Background',
+                'name' => 'background',
                 'type' => 'image',
                 'instructions' => '',
                 'required' => 1,

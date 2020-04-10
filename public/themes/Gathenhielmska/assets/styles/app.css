@@ -163,18 +163,18 @@ h3.contact-main {
   align-items: center;
 }
 
-.nf-form-layout #nf-field-23-container {
+.nf-form-layout #nf-field-28-container {
   width: 40%;
   margin: 0;
 }
 
-.nf-form-layout #nf-field-24-container {
+.nf-form-layout #nf-field-17-container {
   margin: 0;
   width: 20%;
   padding-bottom: 40px;
 }
 
-.nf-form-layout #nf-field-24 {
+.nf-form-layout #nf-field-17 {
   background: #E8680B;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -717,6 +717,10 @@ h2.info-main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.background-img {
+  margin-top: 101px;
 }
 
 .text-wrapper {
