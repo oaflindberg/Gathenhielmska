@@ -163,18 +163,18 @@ h3.contact-main {
   align-items: center;
 }
 
-.nf-form-layout #nf-field-28-container {
+.nf-form-layout #nf-field-23-container {
   width: 40%;
   margin: 0;
 }
 
-.nf-form-layout #nf-field-17-container {
+.nf-form-layout #nf-field-24-container {
   margin: 0;
   width: 20%;
   padding-bottom: 40px;
 }
 
-.nf-form-layout #nf-field-17 {
+.nf-form-layout #nf-field-24 {
   background: #E8680B;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -485,14 +485,38 @@ h2.info-main {
   padding: 5px 0px 5px 0px;
 }
 
+.upcoming {
+  width: calc(100vw - 40px);
+}
+
+.upcoming h3 {
+  color: #E8680B;
+  margin-bottom: 5px;
+}
+
+.upcoming-title {
+  margin-top: 3px;
+}
+
+.upcoming-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .upcoming-event {
   display: flex;
   flex-direction: column;
   color: black;
+  padding: 5px 0px 5px 0px;
 }
 
 .icon-event {
   display: flex;
+}
+
+.icon-event div {
+  display: flex;
+  margin: 0px 3px;
 }
 
 .icon-event img {
