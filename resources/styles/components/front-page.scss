@@ -7,7 +7,15 @@
    align-items: center;
    justify-content: center;
     height: 70vh;
-    // margin-top: -70vh;
+    margin-top: -82vh;
+    margin-bottom: 110px;
+    width: 40px;
+    h4 {
+        color: white;
+        font-size: 30px;
+        margin-left: 250px;
+       
+    }
 }
 
 .front-text{
@@ -41,6 +49,7 @@
 .front-background{
     width: 100%;
     height: 50%;
+    margin-left: -10px;
 }
 
 .second-text {
@@ -52,6 +61,15 @@ padding-left: 20px;
 }
 
 .news-front{
-    margin-top: -50px;
-    margin-bottom: -70px;
+    margin-top: -70px;
+    margin-bottom: -90px;
+}
+
+.title{
+    margin-left: 10px;
+    color: $orange;
+    font-size: 24px;
+}
+.upcoming-h3{
+    margin-bottom: -80px;
 }
