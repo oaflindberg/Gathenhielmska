@@ -36,6 +36,7 @@
     justify-content: flex-start;
 }
 
+
 .card-front {
     scroll-snap-align: center;
 }
@@ -47,6 +48,7 @@
 }
 
 .front-background{
+    margin-top: 20px;
     width: 100%;
     height: 50%;
     margin-left: -10px;

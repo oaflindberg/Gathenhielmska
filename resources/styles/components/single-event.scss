@@ -62,3 +62,19 @@
   }
   }
   
+  @media screen and (min-width: 1024px) { 
+
+  .single-event {
+    width: calc(100vw - 600px);
+    img {
+    width: calc(100vw - 600px);
+    }
+  }
+
+  .single-page {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+  }
+}

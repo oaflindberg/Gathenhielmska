@@ -14,6 +14,7 @@
         "upperdog/hide-updates": "^1.1",
         "wordplate/framework": "^8.0",
         "wordplate/plate": "^6.0",
+        "wpackagist-plugin/add-search-to-menu": "^4.4",
         "wpackagist-plugin/modern-events-calendar-lite": "^5.2",
         "wpackagist-plugin/newsletter": "^6.5",
         "wpackagist-plugin/ninja-forms": "3.4.24.1",

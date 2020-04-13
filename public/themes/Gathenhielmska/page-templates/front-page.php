@@ -28,6 +28,7 @@ $args = [
 ];
 ?>
 <?php $events = get_posts($args); ?>
+
 <h3 class=" title upcoming-h3">Kommande evenemang</h3>
 
 <?php
@@ -37,6 +38,7 @@ $terms = get_terms(array(
     'hide_empty' => false,
 )); ?>
 <div class="category-list">
+
     <?php foreach ($terms as $term) : ?>
 
         <a href="<?php echo get_term_link($term) ?> ">

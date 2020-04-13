@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e6337c56c982feb525a92b69621361e",
+    "content-hash": "0bbfb48e142b630a02c1624c31514d5d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1187,6 +1187,24 @@
                 "wordpress"
             ],
             "time": "2019-08-08T13:02:18+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/add-search-to-menu",
+            "version": "4.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
+                "reference": "tags/4.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.4.4.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
         },
         {
             "name": "wpackagist-plugin/modern-events-calendar-lite",

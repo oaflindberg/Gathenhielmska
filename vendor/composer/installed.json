@@ -1222,6 +1222,26 @@
         ]
     },
     {
+        "name": "wpackagist-plugin/add-search-to-menu",
+        "version": "4.4.7",
+        "version_normalized": "4.4.7.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
+            "reference": "tags/4.4.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.4.4.7.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
+    },
+    {
         "name": "wpackagist-plugin/modern-events-calendar-lite",
         "version": "5.2.2",
         "version_normalized": "5.2.2.0",
