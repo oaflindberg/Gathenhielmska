@@ -82,7 +82,7 @@ $terms = get_terms(array(
 <?php endif; ?>
 
 <!-- A: 182, M: 7 -->
-<?php $post = get_post(7); ?>
+<?php $post = get_post(182); ?>
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
 <div class=" second-text">
@@ -123,5 +123,9 @@ $args = [
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/images/bird-frontpage.png" alt="background">
 
+<<<<<<< HEAD
 
 <?php get_footer(); ?>
+=======
+<?php get_footer(); ?>
+>>>>>>> 7571d64adafe5d6d973c6701453d07a4e17e0a61

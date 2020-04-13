@@ -64,12 +64,22 @@
   margin: 20px;
 }
 
+h2.contact-main {
+  font-size: 36px;
+  font-weight: bold;
+  color: #E8680B;
+}
+
 h3.contact-main {
   color: #E8680B;
 }
 
+.form-desktop {
+  display: none;
+}
+
 .contact-gold {
-  color: #E8680B;
+  color: #F1E898;
   font-size: 36px;
   font-weight: bold;
 }
@@ -175,7 +185,8 @@ h3.contact-main {
 }
 
 .nf-form-layout #nf-field-17 {
-  background: #E8680B;
+  background: #F1E898;
+  color: #112E33;
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -233,6 +244,14 @@ h3.contact-main {
     padding: 32px 180px 16px 180px;
   }
 
+  .contact-wrapper .form-mobile {
+    display: none;
+  }
+
+  .contact-wrapper .form-desktop {
+    display: block;
+  }
+
   .contact-wrapper .collaborator-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -263,15 +282,25 @@ h3.contact-main {
     padding-left: 25px;
   }
 
-  .contact-wrapper .nf-form-content {
-    max-width: 100vw;
-    padding: 16px 135px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .contact-wrapper .nf-field-element {
+    margin: 0;
   }
 
-  .contact-wrapper #nf-field-15-wrap {
-    grid-column-start: 2 !important;
+  .contact-wrapper .nf-field-element ul {
+    display: flex;
+  }
+
+  .contact-wrapper .nf-field-element ul li {
+    margin: 0 16px !important;
+  }
+
+  .contact-wrapper .nf-field-element ul li:nth-child(1) {
+    margin: 0 0 !important;
+  }
+
+  .contact-wrapper .nf-form-content .form-input {
+    width: 420px;
+    height: 27px;
   }
 
   .contact-wrapper .contact-image {
@@ -390,12 +419,20 @@ h2.info-main {
   p.info-main {
     width: 529px;
     margin: 0 16px;
+    font-family: "minion pro";
   }
 
   .room-wrapper {
+    width: calc(100vw - 140px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 443px 443px;
+  }
+
+  .inner-room-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .info-salongen {
@@ -431,7 +468,12 @@ h2.info-main {
     margin: 0;
     width: 420px;
     padding: 16px 0;
-    margin-left: 16px;
+    margin-left: 20px;
+  }
+
+  .info-trädgården {
+    grid-column-start: 3;
+    grid-row-start: 2;
   }
 
   .salongen,
@@ -443,11 +485,6 @@ h2.info-main {
   .trädgården {
     width: 420px;
     height: 300px;
-  }
-
-  .info-trädgården {
-    grid-column-start: 3;
-    grid-row-start: 2;
   }
 }
 
@@ -1000,7 +1037,6 @@ a {
   margin-top: 20px;
   width: 100%;
   height: 50%;
-  margin-left: -10px;
 }
 
 .second-text {
