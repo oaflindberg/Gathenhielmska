@@ -1,6 +1,9 @@
 <?php /* Template Name: Event */ ?>
 <?php get_header(); ?>
-
+<div class="buttons">
+    <button class="event-btn">Evenemang</button>
+    <button class="archive-btn">Arkiv</button>
+</div>
 <?php
 $args = [
     'numberposts' => 10,

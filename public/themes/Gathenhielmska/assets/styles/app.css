@@ -515,6 +515,34 @@ h2.info-main {
   height: 68px;
 }
 
+.event-btn {
+  width: 112px;
+  height: 30px;
+  background-color: #E8680B;
+  color: #FAF2F0;
+  border: none;
+  font-size: 18px;
+  margin-left: 16px;
+}
+
+.archive-btn {
+  border: 1px solid #E8680B;
+  width: 62px;
+  height: 30px;
+  background-color: #FAF2F0;
+  color: #E8680B;
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.buttons {
+  margin-top: 101px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
 .event-container {
   width: 100vw;
   display: flex;
@@ -1009,9 +1037,12 @@ a {
   width: 100%;
 }
 
+.cat-front {
+  margin-top: 101px;
+}
+
 .category-list {
   display: flex;
-  margin-top: 101px;
   width: 100vw;
   justify-content: space-evenly;
 }

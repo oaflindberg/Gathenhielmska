@@ -37,7 +37,7 @@ $terms = get_terms(array(
     'taxonomy' => 'category',
     'hide_empty' => false,
 )); ?>
-<div class="category-list">
+<div class="category-list cat-front">
 
     <?php foreach ($terms as $term) : ?>
 
