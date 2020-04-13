@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/mikaelalundsgard/Desktop/Gathenhielmska/resources/scripts/app.js */"./resources/scripts/app.js");
-module.exports = __webpack_require__(/*! /Users/mikaelalundsgard/Desktop/Gathenhielmska/resources/styles/app.scss */"./resources/styles/app.scss");
+__webpack_require__(/*! /Users/Andreas/Documents/GitHub/Gathenhielmska/resources/scripts/app.js */"./resources/scripts/app.js");
+module.exports = __webpack_require__(/*! /Users/Andreas/Documents/GitHub/Gathenhielmska/resources/styles/app.scss */"./resources/styles/app.scss");
 
 
 /***/ })
