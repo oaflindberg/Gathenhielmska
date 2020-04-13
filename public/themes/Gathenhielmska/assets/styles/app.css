@@ -772,6 +772,11 @@ h2.info-main {
   padding-left: 20px;
 }
 
+.news-front {
+  margin-top: -50px;
+  margin-bottom: -70px;
+}
+
 .thumbnail-category {
   width: 281px;
   height: 217px;

@@ -68,7 +68,8 @@ $terms = get_terms(array(
                                 <button class="ticket-btn" href="www.biletto.se">Tickets</button>
                                 <?php $categories = get_the_terms($post, 'category')  ?>
                                 <?php foreach ($categories as $category) : ?>
-                                    <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a>
+                                    <a href="<?php echo get_term_link($category) ?>"> <img src=" <?php echo get_field('image_icon', $category)  ?>" alt="">
+                                    </a>
                                 <?php endforeach; ?>
                             </div>
                         </div>
@@ -95,7 +96,7 @@ $args = [
 ];
 ?>
 <?php $news = get_posts($args); ?>
-<h3>Nyheter</h3>
+<h3 class="news-front">Nyheter</h3>
 <?php if (count($news)) : ?>
     <div class=" news-container wrapper-front">
         <?php foreach ($news as $post) : ?>
