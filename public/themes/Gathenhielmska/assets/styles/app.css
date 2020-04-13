@@ -211,18 +211,31 @@ h3.contact-main {
   }
 
   .contact-wrapper {
-    width: calc(100% - 360px);
-    margin: 32px 180px 0 180px;
+    width: 100vw;
+    margin-top: 0;
+  }
+
+  .contact-wrapper h2.contact-main {
+    padding-left: 180px;
+    margin: 0;
+    margin-top: 32px;
+  }
+
+  .contact-wrapper h3.contact-main,
+  .contact-wrapper p.contact-main {
+    margin: 0;
+    margin-top: 16px;
+    padding-left: 180px;
   }
 
   .contact-wrapper .contact-heading {
     text-align: left;
+    padding: 32px 180px 16px 180px;
   }
 
   .contact-wrapper .collaborator-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .contact-wrapper .other-actor-wrapper {
@@ -232,14 +245,13 @@ h3.contact-main {
 
   .contact-wrapper .contact-heading-bg {
     background: #36717B;
-    margin-left: -180px;
-    margin-right: -180px;
+    width: 100vw;
+    margin: 0;
     padding-left: 180px;
   }
 
   .contact-wrapper .contact-paragraph {
-    margin-left: -180px;
-    margin-right: -180px;
+    margin: 0;
     padding-left: 180px;
   }
 
@@ -248,14 +260,27 @@ h3.contact-main {
   }
 
   .contact-wrapper .nf-form-layout {
-    margin-left: -180px;
-    margin-right: -180px;
     padding-left: 25px;
+  }
+
+  .contact-wrapper .nf-form-content {
+    max-width: 100vw;
+    padding: 16px 135px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-wrapper #nf-field-15-wrap {
+    grid-column-start: 2 !important;
+  }
+
+  .contact-wrapper .contact-image {
+    display: none;
   }
 }
 
 .info-wrapper {
-  margin-top: 20%;
+  margin-top: 140px;
   background: #FAF2F0;
   font-family: "Roboto", sans-serif;
 }
@@ -315,33 +340,115 @@ h2.info-main {
 }
 
 .italia {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Italiarummet.png);
   background-size: cover;
 }
 
 .kungasalen {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Kungasalen.png);
   background-size: cover;
 }
 
 .versailles {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/VersaillesRummet.png);
   background-size: cover;
 }
 
 .galleriet {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Galleriet.png);
   background-size: cover;
 }
 
 .biografen {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Biografen.png);
   background-size: cover;
 }
 
 .trädgården {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Trädgården.png);
   background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .info-wrapper {
+    margin-top: 32px;
+    padding: 0 70px;
+  }
+
+  p.info-main {
+    width: 529px;
+    margin: 0 16px;
+  }
+
+  .room-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 443px 443px;
+  }
+
+  .info-salongen {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .info-italia {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .info-kungasalen {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+
+  .info-versailles {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  .info-galleriet {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .info-subheading {
+    padding-top: 16px;
+  }
+
+  .info-paragraph {
+    margin: 0;
+    width: 420px;
+    padding: 16px 0;
+    margin-left: 16px;
+  }
+
+  .salongen,
+  .italia,
+  .kungasalen,
+  .versailles,
+  .biografen,
+  .galleriet,
+  .trädgården {
+    width: 420px;
+    height: 300px;
+  }
+
+  .info-trädgården {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
 }
 
 .footer-wrapper {

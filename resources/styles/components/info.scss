@@ -1,6 +1,6 @@
 
 .info-wrapper {
-  margin-top: 20%;
+  margin-top: 140px;
   background: $white;
   font-family: 'Roboto', sans-serif;
 }
@@ -60,31 +60,110 @@ h2.info-main {
 }
 
 .italia {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Italiarummet.png);
   background-size: cover;
 }
 
 .kungasalen {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Kungasalen.png);
   background-size: cover;
 }
 
 .versailles {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/VersaillesRummet.png);
   background-size: cover;
 }
 
 .galleriet {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Galleriet.png);
   background-size: cover;
 }
 
 .biografen {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Biografen.png);
   background-size: cover;
 }
 
 .trädgården {
+  height: 200px;
+  width: 320px;
   background-image: url(/../../../themes/Gathenhielmska/assets/images/images/Trädgården.png);
   background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .info-wrapper {
+    margin-top: 32px;
+    padding: 0 70px;
+  }
+
+  p.info-main {
+    width: 529px;
+    margin: 0 16px;
+  }
+
+  .room-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 443px 443px;
+  }
+
+  .info-salongen {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .info-italia {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .info-kungasalen {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+
+  .info-versailles {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  .info-galleriet {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .info-subheading {
+    padding-top: 16px;
+  }
+
+  .info-paragraph {
+    margin: 0;
+    width: 420px;
+    padding: 16px 0;
+    margin-left: 16px;
+  }
+
+  .salongen, .italia, .kungasalen, .versailles, .biografen, .galleriet, .trädgården {
+    width: 420px;
+    height: 300px;
+  }
+
+
+  .info-trädgården {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
 }
