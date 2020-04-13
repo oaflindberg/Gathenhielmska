@@ -111,12 +111,20 @@ h2.info-main {
   p.info-main {
     width: 529px;
     margin: 0 16px;
+    font-family: 'minion pro';
   }
 
   .room-wrapper {
+    width: calc(100vw - 140px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 443px 443px;
+  }
+
+  .inner-room-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .info-salongen {
@@ -152,18 +160,17 @@ h2.info-main {
     margin: 0;
     width: 420px;
     padding: 16px 0;
-    margin-left: 16px;
+    margin-left: 20px;
+  }
+
+  .info-trädgården {
+    grid-column-start: 3;
+    grid-row-start: 2;
   }
 
   .salongen, .italia, .kungasalen, .versailles, .biografen, .galleriet, .trädgården {
     width: 420px;
     height: 300px;
-  }
-
-
-  .info-trädgården {
-    grid-column-start: 3;
-    grid-row-start: 2;
   }
 
 }

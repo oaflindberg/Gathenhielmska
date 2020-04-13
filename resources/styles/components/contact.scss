@@ -9,12 +9,22 @@
   margin: 20px;
 }
 
+h2.contact-main {
+  font-size: 36px;
+  font-weight: bold;
+  color: $orange
+}
+
 h3.contact-main {
   color: $orange;
 }
 
+.form-desktop {
+  display: none;
+}
+
 .contact-gold {
-  color: $orange;
+  color: $gold;
   font-size: 36px;
   font-weight: bold;
 }
@@ -120,7 +130,8 @@ h3.contact-main {
   }
 //a 17 m 24
   #nf-field-17 {
-    background: $orange;
+    background: $gold;
+    color: $darkBlue;
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -179,6 +190,14 @@ h3.contact-main {
       padding: 32px 180px 16px 180px;
     }
 
+    .form-mobile {
+      display: none;
+    }
+
+    .form-desktop {
+      display: block;
+    }
+
     .collaborator-wrapper {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -209,15 +228,26 @@ h3.contact-main {
       padding-left: 25px;
     }
 
-    .nf-form-content {
-      max-width: 100vw;
-      padding: 16px 135px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    .nf-field-element {
+      margin: 0;
     }
 
-    #nf-field-15-wrap {
-      grid-column-start: 2 !important;
+    .nf-field-element ul{
+
+      display: flex;
+
+      li {
+        margin: 0 16px !important;
+      }
+
+      li:nth-child(1) {
+        margin: 0 0 !important;
+      }
+    }
+
+    .nf-form-content .form-input {
+      width: 420px;
+      height: 27px;
     }
 
     .contact-image {
