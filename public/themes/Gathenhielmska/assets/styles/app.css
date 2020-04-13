@@ -29,7 +29,11 @@
 .navigation ul li a {
   color: #FAF2F0;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .navigation ul li a:visited {
@@ -39,6 +43,14 @@
 @media screen and (min-width: 1024px) {
   .navigation-under {
     display: none;
+  }
+
+  .navigation ul li a {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
@@ -57,7 +69,7 @@
 .contact-wrapper {
   margin-top: 101px;
   background: #FAF2F0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .contact-main {
@@ -130,6 +142,7 @@ h3.contact-main {
 
 .other-actor a {
   color: black;
+  font-family: "minion pro";
   text-decoration: none;
 }
 
@@ -232,6 +245,32 @@ h3.contact-main {
     margin-top: 32px;
   }
 
+  .contact-wrapper p.contact-main {
+    width: 734px;
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contact-wrapper p.contact-main a {
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E5D76;
+  }
+
+  .contact-wrapper h3.contact-main,
+  .contact-wrapper .contact-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
   .contact-wrapper h3.contact-main,
   .contact-wrapper p.contact-main {
     margin: 0;
@@ -254,12 +293,36 @@ h3.contact-main {
 
   .contact-wrapper .collaborator-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 349px 349px 349px;
+    padding: 0 180px 0 80px;
+    width: 100vw;
+    grid-column-gap: 96px;
+  }
+
+  .contact-wrapper .collaborator-wrapper .collaborator {
+    height: 94px;
+    margin-left: 0;
+  }
+
+  .contact-wrapper .collaborator:nth-child(2) {
+    margin-left: 96px;
+  }
+
+  .contact-wrapper .collaborator:nth-child(3) {
+    margin-left: 96px;
   }
 
   .contact-wrapper .other-actor-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 349px 349px 349px;
+    grid-column-gap: 96px;
+    padding: 0 180px 0 80px;
+    width: 100vw;
+  }
+
+  .contact-wrapper .other-actor-wrapper .other-actor a {
+    margin-top: 9px;
+    font-size: 18px;
   }
 
   .contact-wrapper .contact-heading-bg {
@@ -272,10 +335,53 @@ h3.contact-main {
   .contact-wrapper .contact-paragraph {
     margin: 0;
     padding-left: 180px;
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contact-wrapper .contact-paragraph a {
+    font-family: Minion Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1E898;
   }
 
   .contact-wrapper .nf-form-fields-required {
     padding-left: 135px;
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contact-wrapper #nf-label-field-44,
+  .contact-wrapper #nf-label-field-45,
+  .contact-wrapper #nf-label-field-46,
+  .contact-wrapper #nf-label-field-48,
+  .contact-wrapper #nf-label-field-49,
+  .contact-wrapper #nf-label-field-50,
+  .contact-wrapper #nf-label-class-field-50-0,
+  .contact-wrapper #nf-label-class-field-50-1,
+  .contact-wrapper #nf-label-field-51,
+  .contact-wrapper #nf-label-field-51-0,
+  .contact-wrapper #nf-label-field-51-1,
+  .contact-wrapper #nf-label-field-51-2,
+  .contact-wrapper #nf-label-field-51-3,
+  .contact-wrapper #nf-label-field-51-4,
+  .contact-wrapper #nf-label-field-51-5,
+  .contact-wrapper #nf-label-field-51-6,
+  .contact-wrapper #nf-label-field-53 {
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
   }
 
   .contact-wrapper .nf-form-layout {
@@ -298,9 +404,20 @@ h3.contact-main {
     margin: 0 0 !important;
   }
 
+  .contact-wrapper #nf-field-46 {
+    width: 859px;
+    height: 146px;
+  }
+
+  .contact-wrapper .nf-form-content {
+    margin: 0;
+    padding-left: 135px;
+  }
+
   .contact-wrapper .nf-form-content .form-input {
     width: 420px;
     height: 27px;
+    font-family: "minion pro";
   }
 
   .contact-wrapper .contact-image {
@@ -416,23 +533,76 @@ h2.info-main {
     padding: 0 70px;
   }
 
+  h2.info-main {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
   p.info-main {
     width: 529px;
     margin: 0 16px;
-    font-family: "minion pro";
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  p.info-main a {
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E5D76;
+  }
+
+  h3.info-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .info-subheading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .info-paragraph {
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .info-paragraph a {
+    font-family: "Minion Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E5D76;
   }
 
   .room-wrapper {
-    width: calc(100vw - 140px);
+    min-width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 420px 420px 420px;
     grid-template-rows: 443px 443px;
+    grid-column-gap: 20px;
   }
 
   .inner-room-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: flex-start;
   }
 
   .info-salongen {

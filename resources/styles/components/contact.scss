@@ -2,7 +2,7 @@
 .contact-wrapper {
   margin-top: 101px;
   background: $white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .contact-main {
@@ -75,6 +75,7 @@ h3.contact-main {
 
   a {
     color: black;
+    font-family: 'minion pro';
     text-decoration: none;
   }
 
@@ -179,6 +180,31 @@ h3.contact-main {
       margin-top: 32px;
     }
 
+    p.contact-main {
+      width: 734px;
+      font-family: 'Minion Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+
+      a {
+        font-family: 'Minion Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $blue2;
+      }
+    }
+
+    h3.contact-main, .contact-heading {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+    }
+
     h3.contact-main, p.contact-main {
       margin: 0;
       margin-top: 16px;
@@ -200,12 +226,38 @@ h3.contact-main {
 
     .collaborator-wrapper {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 349px 349px 349px;
+      padding: 0 180px 0 80px;
+      width: 100vw;
+      grid-column-gap: 96px;
+
+      .collaborator {
+        height: 94px;
+        margin-left: 0;
+      }
+    }
+
+    .collaborator:nth-child(2) {
+      margin-left: 96px;
+    }
+
+    .collaborator:nth-child(3) {
+      margin-left: 96px;
     }
 
     .other-actor-wrapper {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 349px 349px 349px;
+      grid-column-gap: 96px;
+      padding: 0 180px 0 80px;
+      width: 100vw;
+
+      .other-actor {
+        a {
+          margin-top: 9px;
+          font-size: 18px;
+        }
+      }
     }
 
     .contact-heading-bg {
@@ -218,10 +270,53 @@ h3.contact-main {
     .contact-paragraph {
       margin: 0;
       padding-left: 180px;
+      font-family: 'Minion Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+
+      a {
+        font-family: Minion Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $gold;
+      }
     }
 
     .nf-form-fields-required {
       padding-left: 135px;
+      font-family: 'Minion Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    #nf-label-field-44,
+    #nf-label-field-45,
+    #nf-label-field-46,
+    #nf-label-field-48,
+    #nf-label-field-49,
+    #nf-label-field-50,
+    #nf-label-class-field-50-0,
+    #nf-label-class-field-50-1,
+    #nf-label-field-51,
+    #nf-label-field-51-0,
+    #nf-label-field-51-1,
+    #nf-label-field-51-2,
+    #nf-label-field-51-3,
+    #nf-label-field-51-4,
+    #nf-label-field-51-5,
+    #nf-label-field-51-6,
+    #nf-label-field-53 {
+      font-family: 'Minion Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
     }
 
     .nf-form-layout {
@@ -245,9 +340,20 @@ h3.contact-main {
       }
     }
 
+    #nf-field-46 {
+        width: 859px;
+        height: 146px;
+    }
+
+    .nf-form-content {
+      margin: 0;
+      padding-left: 135px;
+    }
+
     .nf-form-content .form-input {
       width: 420px;
       height: 27px;
+      font-family: 'minion pro';
     }
 
     .contact-image {

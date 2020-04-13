@@ -25,7 +25,11 @@
   .navigation ul li a{
     color: $white;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .navigation ul li a:visited {
@@ -36,4 +40,13 @@
       .navigation-under {
         display: none;
       }
+
+
+  .navigation ul li a{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
   }

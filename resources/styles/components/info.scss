@@ -108,23 +108,77 @@ h2.info-main {
     padding: 0 70px;
   }
 
+  h2.info-main {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
   p.info-main {
     width: 529px;
     margin: 0 16px;
-    font-family: 'minion pro';
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    a {
+      font-family: 'Minion Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: $blue2;
+    }
+  }
+
+  h3.info-heading {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+  }
+
+  .info-subheading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .info-paragraph {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+      a {
+        font-family: 'Minion Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $blue2;
+      }
   }
 
   .room-wrapper {
-    width: calc(100vw - 140px);
+    min-width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 420px 420px 420px;
     grid-template-rows: 443px 443px;
+    grid-column-gap: 20px;
+    // margin: 0 70px;
   }
 
   .inner-room-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: flex-start;
   }
 
   .info-salongen {
