@@ -744,6 +744,11 @@ a {
     align-items: center;
     padding: 30px;
   }
+
+  .upcoming {
+    margin-left: 40px;
+    margin-top: -40px;
+  }
 }
 
 .about-us {

@@ -12,6 +12,7 @@
     <?php endif; ?>
 </div>
 </div> -->
+
 <img class="background-img" src="<?php the_field('background') ?>" alt="">
 <div class="text-wrapper">
     <h4 class="front-text"> <?php the_field('text') ?> </h4>
@@ -121,5 +122,6 @@ $args = [
 <?php $post = get_post(7); ?>
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/images/bird-frontpage.png" alt="background">
+
 
 <?php get_footer(); ?>
