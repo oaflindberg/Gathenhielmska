@@ -151,3 +151,54 @@ h3.contact-main {
   margin-top: 40px;
 }
 
+@media screen and (min-width: 1024px) {
+
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+
+  }
+  .contact-wrapper {
+    width: calc(100% - 360px);
+    margin: 32px 180px 0 180px;
+
+    .contact-heading {
+      text-align: left;
+    }
+
+    .collaborator-wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    .other-actor-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contact-heading-bg {
+      background: $green;
+      margin-left: -180px;
+      margin-right: -180px;
+      padding-left: 180px;
+    }
+
+    .contact-paragraph {
+      margin-left: -180px;
+      margin-right: -180px;
+      padding-left: 180px;
+    }
+
+    .nf-form-fields-required {
+      padding-left: 135px;
+    }
+
+    .nf-form-layout {
+      margin-left: -180px;
+      margin-right: -180px;
+      padding-left: 25px;
+    }
+  }
+}
+

@@ -204,6 +204,56 @@ h3.contact-main {
   margin-top: 40px;
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .contact-wrapper {
+    width: calc(100% - 360px);
+    margin: 32px 180px 0 180px;
+  }
+
+  .contact-wrapper .contact-heading {
+    text-align: left;
+  }
+
+  .contact-wrapper .collaborator-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .contact-wrapper .other-actor-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .contact-wrapper .contact-heading-bg {
+    background: #36717B;
+    margin-left: -180px;
+    margin-right: -180px;
+    padding-left: 180px;
+  }
+
+  .contact-wrapper .contact-paragraph {
+    margin-left: -180px;
+    margin-right: -180px;
+    padding-left: 180px;
+  }
+
+  .contact-wrapper .nf-form-fields-required {
+    padding-left: 135px;
+  }
+
+  .contact-wrapper .nf-form-layout {
+    margin-left: -180px;
+    margin-right: -180px;
+    padding-left: 25px;
+  }
+}
+
 .info-wrapper {
   margin-top: 20%;
   background: #FAF2F0;
