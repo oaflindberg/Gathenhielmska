@@ -12,8 +12,7 @@
     <?php endif; ?>
 </div>
 </div> -->
-
-<img class="background-img" src="<?php the_field('backgorund') ?>" alt="">
+<img class="background-img" src="<?php the_field('background') ?>" alt="">
 <div class="text-wrapper">
     <h4 class="front-text"> <?php the_field('text') ?> </h4>
 </div>
@@ -29,7 +28,7 @@ $args = [
 ];
 ?>
 <?php $events = get_posts($args); ?>
-<h3>Kommande evenemang</h3>
+<h3 class=" title upcoming-h3">Kommande evenemang</h3>
 
 <?php
 
@@ -96,7 +95,7 @@ $args = [
 ];
 ?>
 <?php $news = get_posts($args); ?>
-<h3 class="news-front">Nyheter</h3>
+<h3 class=" title news-front">Nyheter</h3>
 <?php if (count($news)) : ?>
     <div class=" news-container wrapper-front">
         <?php foreach ($news as $post) : ?>
