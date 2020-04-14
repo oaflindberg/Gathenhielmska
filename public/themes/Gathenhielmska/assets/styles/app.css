@@ -860,7 +860,7 @@ h2.info-main {
 }
 
 .btn-category-wrapper {
-  margin-top: 125px;
+  margin-top: 101px;
 }
 
 .event-btn {
@@ -1028,6 +1028,7 @@ a {
   }
 
   .btn-category-wrapper {
+    margin-top: -40px;
     display: flex;
     width: 50%;
     align-items: flex-end;
@@ -1458,6 +1459,11 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .second-text {
+    margin-top: -10%;
+    margin-bottom: 20%;
+  }
+
   .wrapper-front {
     flex-wrap: nowrap;
   }

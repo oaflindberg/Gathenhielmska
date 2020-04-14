@@ -1,6 +1,6 @@
 @import "./../project/variables";
 .btn-category-wrapper{
-  margin-top: 125px;
+  margin-top: 101px;
 
 }
 .event-btn {
@@ -144,7 +144,7 @@ width: 80%;
 }
 
 @media screen and (min-width: 1024px) { 
-  
+
   .event-cards {
     width: 310px;
     height: 350px;
@@ -162,6 +162,7 @@ width: 80%;
   }
 
 .btn-category-wrapper{
+  margin-top:-40px;
   display: flex;
   width: 50%;
   align-items: flex-end;
