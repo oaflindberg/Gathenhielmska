@@ -853,7 +853,7 @@ a {
   color: white;
   margin: 10px;
   width: calc(100vw - 40px);
-  height: 341px;
+  height: 360px;
 }
 
 .event-cards h3 {
@@ -884,8 +884,18 @@ a {
   justify-content: space-around;
 }
 
+.event-text h3 {
+  font-weight: normal;
+}
+
 .event-text div {
   padding: 5px 0px 5px 0px;
+}
+
+.date-text {
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: normal;
 }
 
 .time-info {
@@ -899,11 +909,12 @@ a {
 }
 
 .ticket-btn {
-  width: 78px;
-  height: 23px;
+  width: 92px;
+  height: 33px;
   color: white;
   background-color: #FB8D3D;
   border: none;
+  color: #112E33;
 }
 
 .entrance {
@@ -916,7 +927,8 @@ a {
   align-items: center;
   margin-top: -40px;
   margin-left: 250px;
-  color: white;
+  color: #112E33 !important;
+  font-family: Lato;
 }
 
 .ticket-wrapper {

@@ -43,7 +43,7 @@ a{
   color: white;
     margin: 10px;
     width: calc(100vw - 40px);
-  height: 341px;
+  height: 360px;
   h3 {
     font-size: 18px;
     text-decoration: none;
@@ -70,11 +70,19 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  h3{
+    font-weight: normal;
+  }
+
   div{
     padding: 5px 0px 5px 0px;
   }
 
-
+}
+.date-text{
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: normal;
 }
 
 .time-info{
@@ -87,11 +95,12 @@ width: 80%;
 }
 
 .ticket-btn{
-  width:78px;
-  height: 23px;
+  width:92px;
+  height: 33px;
   color: white;
   background-color: $light-orange;
   border: none;
+  color: $blueGat;
 }
 
 .entrance{
@@ -104,7 +113,8 @@ width: 80%;
   align-items: center;
   margin-top: -40px;
   margin-left: 250px;
-  color: white;
+  color: $blueGat !important;
+  font-family: Lato;
 }
 
 .ticket-wrapper {

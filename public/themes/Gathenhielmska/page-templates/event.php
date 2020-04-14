@@ -26,7 +26,7 @@
         <?php foreach ($terms as $term) : ?>
 
             <a href="<?php echo get_term_link($term) ?> ">
-                <img class="cat-icon" src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
+                <img class="cat-icon" src=" <?php echo get_field('image', $term)  ?>" alt="">
                 <p> <?php echo get_field('title', $term)  ?></p>
             </a>
 
@@ -52,12 +52,12 @@
 
                         <div class="time-info">
                             <div>
-                                <p> <?php echo the_field('date') ?> </p>
-                                <p> <?php echo the_field('end_date') ?> </p>
+                                <p class="date-text"> <?php echo the_field('date') ?> </p>
+                                <p class="date-text"> <?php echo the_field('end_date') ?> </p>
                             </div>
                             <div>
-                                <p> <?php echo the_field('time') ?> </p>
-                                <p> <?php echo the_field('end_time') ?> </p>
+                                <p class="date-text"> <?php echo the_field('time') ?> </p>
+                                <p class="date-text"> <?php echo the_field('end_time') ?> </p>
                             </div>
                         </div>
                         <div>

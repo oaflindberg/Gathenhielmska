@@ -64,10 +64,10 @@ $terms = get_terms(array(
                         <?php get_field('Event info') ?>
                         <div class="event-text">
                             <h3><?php echo $post->post_title; ?></h3>
-                            <p> <?php echo the_field('date') ?> </p>
+                            <p class="date-text"> <?php echo the_field('date') ?> </p>
                             <p> <?php echo the_field('descript') ?></p>
                             <div class="ticket-wrapper">
-                                <button class="ticket-btn" href="www.biletto.se">Tickets</button>
+                                <button class="ticket-btn" href="www.biletto.se">Boka plats</button>
                                 <?php $categories = get_the_terms($post, 'category')  ?>
                                 <?php foreach ($categories as $category) : ?>
                                     <a href="<?php echo get_term_link($category) ?>"> <img class="cat-icon" src="<?php echo get_field('white_img', $category)  ?>" alt="">
