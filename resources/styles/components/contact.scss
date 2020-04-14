@@ -84,6 +84,14 @@ h3.contact-main {
   }
 }
 
+.nf-form-content label {
+  font-family: 'Minion Pro' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
 .nf-form-layout {
   background-image: url(/../../../themes/Gathenhielmska/assets/images/background/botten_v2.svg);
   color: $white;
@@ -142,6 +150,8 @@ h3.contact-main {
     align-items: center;
     font-size: 18px;
   }
+
+
 
 }
 
@@ -229,40 +239,36 @@ h3.contact-main {
     }
 
     .collaborator-wrapper {
-      display: grid;
-
-      grid-template-columns: 349px 349px 349px;
-      padding: 0 180px 0 80px;
       width: 100vw;
-      grid-column-gap: 96px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding-left: 80px;
 
       .collaborator {
-        position: relative;
         height: 94px;
-        margin-left: 0;
+        margin: 0 100px;
       }
     }
 
-    .collaborator:nth-child(2) {
-      margin-left: 96px;
-    }
-
-    .collaborator:nth-child(3) {
-      margin-left: 96px;
-    }
-
     .other-actor-wrapper {
-      display: grid;
-      grid-template-columns: 349px 349px 349px;
-      grid-column-gap: 96px;
-      padding: 0 180px 0 80px;
       width: 100vw;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding-left: 80px;
 
       .other-actor {
+        margin: 20px 96px;
         a {
           margin-top: 9px;
           font-size: 18px;
         }
+      }
+
+      .other-actor:nth-child(4) {
+        margin: 20px 100px 20px 60px;
+        width: 300px;
       }
     }
 
@@ -330,6 +336,11 @@ h3.contact-main {
       width: 11px;
     }
 
+    .submit-container {
+      justify-content: flex-start;
+      padding: 0;
+    }
+
     .nf-form-layout {
       padding-left: 25px;
     }
@@ -372,4 +383,6 @@ h3.contact-main {
     }
   }
 }
+
+//  Georgia, serif
 

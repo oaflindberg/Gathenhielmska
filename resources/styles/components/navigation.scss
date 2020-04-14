@@ -17,7 +17,7 @@
     background-image: url(/../../../themes/Gathenhielmska/assets/images/background/header.svg);
     top: 0;
     z-index: 1;
-    width: 100vw;
+    min-width: 100vw;
     height: 81px;
     color: $white;
   }
@@ -34,6 +34,19 @@
 
   .navigation ul li a:visited {
     color: $white;
+  }
+
+  @media screen and (min-width: 376px) {
+    .navigation-under {
+      display: flex;
+      align-items: center;
+      height: 100px;
+      background-image: url(/../../../themes/Gathenhielmska/assets/images/background/header_desktop.svg);
+    }
+
+    button#responsive-menu-button {
+      margin-top: 15px !important;
+    }
   }
 
   @media screen and (min-width: 1024px) {
