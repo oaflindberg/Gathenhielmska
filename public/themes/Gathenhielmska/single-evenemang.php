@@ -75,27 +75,27 @@
 
             <?php $events = get_posts($args); ?>
 
-            <?php foreach ($events as $hej) : ?>
+            <?php foreach ($events as $single) : ?>
 
-                <a href="<?php echo get_permalink($hej); ?>">
+                <a href="<?php echo get_permalink($single); ?>">
                     <div class="upcoming-event">
                         <div class="icon-event">
 
                             <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/calender.svg" alt="calender">
                             <div>
-                                <p> <?php echo the_field('date')  ?> </p>
-                                <p> <?php echo the_field('end_date') ?> </p>
+                                <p> <?php echo the_field('date', $single->ID)  ?> </p>
+                                <p> <?php echo the_field('end_date', $single->ID) ?> </p>
                             </div>
                             <div>
-                                <p> <?php echo the_field('time') ?> </p>
-                                <p> <?php echo the_field('end_time') ?> </p>
+                                <p> <?php echo the_field('time', $single->ID) ?> </p>
+                                <p> <?php echo the_field('end_time', $single->ID) ?> </p>
 
 
                             </div>
 
                         </div>
                         <div>
-                            <p class="upcoming-title"><?php echo $hej->post_title; ?></p>
+                            <p class="upcoming-title"><?php echo $single->post_title; ?></p>
                         </div>
                     </div>
 

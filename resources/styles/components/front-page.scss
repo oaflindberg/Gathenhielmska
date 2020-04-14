@@ -1,4 +1,6 @@
-
+.front-background-desktop{
+    display:none;
+}
 .background-img {
   margin-top: 101px;
 }
@@ -75,3 +77,25 @@
 .upcoming-h3{
     margin-bottom: -80px;
 }
+
+@media screen and (min-width: 1024px) {
+    .wrapper-front{
+        flex-wrap: nowrap;
+  
+    }
+    .test{
+        min-width: 20vw;
+        margin-left: 40px;
+    }
+.front-background{
+    height: 280px;
+    width: 1000px;
+}
+.front-background{
+    display:none;
+}
+.front-background-desktop{
+    display:block;
+    width: 100vw;
+}
+ }

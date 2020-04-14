@@ -9,6 +9,7 @@
     $args = [
         'numberposts' => 10,
         'post_type' => 'Evenemang',
+        'meta_key' => 'date',
         'orderby' => 'date',
         'order' => 'ASC'
     ];
@@ -25,7 +26,7 @@
         <?php foreach ($terms as $term) : ?>
 
             <a href="<?php echo get_term_link($term) ?> ">
-                <img src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
+                <img class="cat-icon" src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
                 <p> <?php echo get_field('title', $term)  ?></p>
             </a>
 

@@ -22,7 +22,7 @@
 
 <?php
 $args = [
-    'numberposts' => 10,
+    'numberposts' => 4,
     'post_type' => 'Evenemang',
     'orderby' => 'date',
     'order' => 'ASC'
@@ -43,7 +43,7 @@ $terms = get_terms(array(
     <?php foreach ($terms as $term) : ?>
 
         <a href="<?php echo get_term_link($term) ?> ">
-            <img src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
+            <img class="cat-icon" src=" <?php echo get_field('image', $term)  ?>" alt="">
             <p> <?php echo get_field('title', $term)  ?></p>
         </a>
 
@@ -70,7 +70,7 @@ $terms = get_terms(array(
                                 <button class="ticket-btn" href="www.biletto.se">Tickets</button>
                                 <?php $categories = get_the_terms($post, 'category')  ?>
                                 <?php foreach ($categories as $category) : ?>
-                                    <a href="<?php echo get_term_link($category) ?>"> <img src=" <?php echo get_field('white_img', $category)  ?>" alt="">
+                                    <a href="<?php echo get_term_link($category) ?>"> <img class="cat-icon" src=" <?php echo get_field('white_img', $category)  ?>" alt="">
                                     </a>
                                 <?php endforeach; ?>
                             </div>
@@ -85,6 +85,8 @@ $terms = get_terms(array(
 <?php $post = get_post(182); ?>
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
+<img class="front-background-desktop" src="<?php bloginfo('template_directory') ?>/assets/images/background/Union.svg" alt="backgroun">
+
 <div class=" second-text">
     <p class="second-text"><?php the_field('second_text'); ?></p>
 </div>
