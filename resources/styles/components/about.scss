@@ -1,16 +1,20 @@
-.about-us{
-padding-left: 20px;
-padding-top:20px;
-}
 
 .about-wrapper {
-    margin: 20px;
+
+    margin-top: 101px;
+    padding-right: 16px;
+    padding-left: 16px;
+    .about-us{
+        margin-bottom: 16px;
+        color: $orange;
+    }
     div{
         margin-bottom: 20px;
-        h3 {
-            font-size: 20px;
-            padding-bottom: 5px;
-        }
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        color: $orange;
     }
 }
 
