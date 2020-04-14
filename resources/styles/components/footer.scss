@@ -1,36 +1,38 @@
-
-
-
 .footer-wrapper {
-
 background-image: url(/../../../themes/Gathenhielmska/assets/images/background/footer_mobile.svg);
 background-size: cover;
 margin-top: 40px;
 height: 434px;
 bottom: 0;
-padding: 30px;
+padding: 16px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 h4 {
-    color: $light-orange;
+    color: $dark-orange;
     font-size: 24px;
 }
 p {
     color: white;
 }
 }
+.desktop-wrapper{
+    height: 66%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 .contact-us {
-    height: 33%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .follow-us {
-    height: 33%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -56,12 +58,54 @@ p {
 
 .sponsor-wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
 
-    img{
-    width: 68px;
-    height: 68px;
+.spons1{
+    width: 94px;
+    height: 60px;
+}
+.spons2{
+    width: 94px;
+    height: 34px;
+}
+.spons3{
+    width: 96px;
+    height: 30px;
 }
 
 }
+
+.footer-img{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-wrapper{
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.footer-img{
+    display: block;
+    width: 484px;
+    height: 327px;
+}
+.follow-wrapper{
+    width: 100%;
+    img{
+        width: 54px;
+        height: 54px;
+    }
+}
+
+.sponsor-wrapper{
+  img{
+      margin: 10px;
+  }
+}
+
+ }
