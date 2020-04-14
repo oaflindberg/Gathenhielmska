@@ -82,7 +82,7 @@ $terms = get_terms(array(
 <?php endif; ?>
 
 <!-- A: 182, M: 7 -->
-<?php $post = get_post(182); ?>
+<?php $post = get_post(7); ?>
 
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
 <img class="front-background-desktop" src="<?php bloginfo('template_directory') ?>/assets/images/background/Union.svg" alt="backgroun">

@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div class="single-page">
     <div class="single-post-wrapper">
+        <img class="arrow-back" src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
 
         <?php if (have_posts()) : ?>
 
@@ -85,14 +86,12 @@
 
                             <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/calender.svg" alt="calender">
                             <div>
-                                <p> <?php echo the_field('date', $single->ID)  ?> </p>
-                                <p> <?php echo the_field('end_date', $single->ID) ?> </p>
+                                <p class="date-text"> <?php echo the_field('date', $single->ID)  ?> </p>
+                                <p class="date-text"> <?php echo the_field('end_date', $single->ID) ?> </p>
                             </div>
                             <div>
-                                <p> <?php echo the_field('time', $single->ID) ?> </p>
-                                <p> <?php echo the_field('end_time', $single->ID) ?> </p>
-
-
+                                <p class="date-text"> <?php echo the_field('time', $single->ID) ?> </p>
+                                <p class="date-text"> <?php echo the_field('end_time', $single->ID) ?> </p>
                             </div>
 
                         </div>

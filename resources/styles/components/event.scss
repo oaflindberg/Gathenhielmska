@@ -1,5 +1,8 @@
 @import "./../project/variables";
+.btn-category-wrapper{
+  margin-top: 125px;
 
+}
 .event-btn {
   width: 112px;
   height: 30px;
@@ -104,17 +107,18 @@ width: 80%;
 }
 
 .entrance{
-  width:51px;
   height: 24px;
+  width: 100px;
   background-color: $light-orange;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -40px;
-  margin-left: 250px;
+  margin-left: 220px;
   color: $blueGat !important;
   font-family: Lato;
+  font-size: 13px;
 }
 
 .ticket-wrapper {

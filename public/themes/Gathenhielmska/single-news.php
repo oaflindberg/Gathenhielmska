@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 <div class="single-news-wrapper">
+    <img class="arrow-back" src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
+
     <?php if (have_posts()) : ?>
         <div class="single-news">
             <?php while (have_posts()) : the_post(); ?>

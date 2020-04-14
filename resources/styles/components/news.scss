@@ -1,6 +1,13 @@
-.news-container, .single-news-wrapper {
 
+.news-container, .single-news-wrapper {
   margin-top: 101px;
+
+  .arrow-back{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+
+  }
 
   img {
     width: 320px;
@@ -25,7 +32,7 @@
   .news-content-container {
     width: calc(100vw - 40px);
     height: 172px;
-    background: $blueGat;
+    background: $blue;
     color: $white;
     padding: 16px;
   }
