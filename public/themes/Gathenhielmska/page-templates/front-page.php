@@ -13,7 +13,9 @@
 </div>
 </div> -->
 
-<img class="background-img" src="<?php the_field('background') ?>" alt="">
+<img class="background-mobile" class="background-img" src="<?php the_field('background_mobile') ?>" alt="">
+<img class="background-desktop" src="<?php the_field('background_desktop') ?>" alt="">
+
 <div class="text-wrapper">
     <h4 class="front-text"> <?php the_field('text') ?> </h4>
 </div>

@@ -1360,8 +1360,12 @@ a {
   display: none;
 }
 
-.background-img {
-  margin-top: 101px;
+.background-mobile {
+  width: 100%;
+}
+
+.background-desktop {
+  display: none;
 }
 
 .text-wrapper {
@@ -1440,6 +1444,17 @@ a {
 
 .upcoming-h3 {
   margin-bottom: -80px;
+}
+
+@media screen and (min-width: 600px) {
+  .background-mobile {
+    display: none;
+  }
+
+  .background-desktop {
+    display: block;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
