@@ -105,7 +105,7 @@ $args = [
     <div class=" news-container wrapper-front">
         <?php foreach ($news as $post) : ?>
             <div class="test">
-                <div class="news-cards">
+                <div class="news-cards news-cards-front">
                     <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
                     <div class="news-content-container">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>

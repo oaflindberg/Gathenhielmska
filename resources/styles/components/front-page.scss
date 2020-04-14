@@ -87,6 +87,7 @@
         min-width: 20vw;
         margin-left: 40px;
     }
+
 .front-background{
     height: 280px;
     width: 1000px;
@@ -97,5 +98,13 @@
 .front-background-desktop{
     display:block;
     width: 100vw;
+}
+
+.news-cards-front{
+    min-width: 20vw;
+}
+
+.news-container{
+    min-width:20vw;
 }
  }
