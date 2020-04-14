@@ -45,6 +45,13 @@
     display: none;
   }
 
+  .navigation {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-image: url(/../../../themes/Gathenhielmska/assets/images/background/header_desktop.svg);
+  }
+
   .navigation ul li a {
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -167,6 +174,10 @@ h3.contact-main {
 
 .nf-form-layout form {
   padding: 20px 20px 0 20px;
+}
+
+.nf-form-layout .ninja-forms-req-symbol {
+  color: #FAF2F0;
 }
 
 .nf-form-layout .nf-form-content .form-input {
@@ -300,6 +311,7 @@ h3.contact-main {
   }
 
   .contact-wrapper .collaborator-wrapper .collaborator {
+    position: relative;
     height: 94px;
     margin-left: 0;
   }
@@ -382,6 +394,11 @@ h3.contact-main {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+  }
+
+  .contact-wrapper #nf-label-field-53::before {
+    height: 11px;
+    width: 11px;
   }
 
   .contact-wrapper .nf-form-layout {
