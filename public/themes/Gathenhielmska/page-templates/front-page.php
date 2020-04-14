@@ -70,7 +70,7 @@ $terms = get_terms(array(
                                 <button class="ticket-btn" href="www.biletto.se">Tickets</button>
                                 <?php $categories = get_the_terms($post, 'category')  ?>
                                 <?php foreach ($categories as $category) : ?>
-                                    <a href="<?php echo get_term_link($category) ?>"> <img src=" <?php echo get_field('image_icon', $category)  ?>" alt="">
+                                    <a href="<?php echo get_term_link($category) ?>"> <img src=" <?php echo get_field('white_img', $category)  ?>" alt="">
                                     </a>
                                 <?php endforeach; ?>
                             </div>

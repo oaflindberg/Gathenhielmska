@@ -126,8 +126,9 @@ width: 80%;
 
 
 @media screen and (min-width: 1024px) { 
+  
   .event-cards {
-    width:310px;
+    width: 310px;
     height: 350px;
   }
   .thumbnail{
@@ -142,5 +143,23 @@ width: 80%;
     flex-wrap: wrap;
   }
 
+.btn-category-wrapper{
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+}
+.buttons{
+ justify-content: start;
+}
+.event-btn{
+  margin-left: 150px;
+  margin-right: 50px;
+}
 
+.category-list{
+
+ a {
+   margin-left: 10px;
+ }
+}
 }

@@ -1,36 +1,37 @@
 <?php /* Template Name: Event */ ?>
 <?php get_header(); ?>
-<div class="buttons">
-    <button class="event-btn">Evenemang</button>
-    <button class="archive-btn">Arkiv</button>
+<div class="btn-category-wrapper">
+    <div class="buttons">
+        <button class="event-btn">Evenemang</button>
+        <button class="archive-btn">Arkiv</button>
+    </div>
+    <?php
+    $args = [
+        'numberposts' => 10,
+        'post_type' => 'Evenemang',
+        'orderby' => 'date',
+        'order' => 'ASC'
+    ];
+    ?>
+    <?php $events = get_posts($args); ?>
+
+    <?php
+
+    $terms = get_terms(array(
+        'taxonomy' => 'category',
+        'hide_empty' => false,
+    )); ?>
+    <div class="category-list">
+        <?php foreach ($terms as $term) : ?>
+
+            <a href="<?php echo get_term_link($term) ?> ">
+                <img src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
+                <p> <?php echo get_field('title', $term)  ?></p>
+            </a>
+
+        <?php endforeach; ?>
+    </div>
 </div>
-<?php
-$args = [
-    'numberposts' => 10,
-    'post_type' => 'Evenemang',
-    'orderby' => 'date',
-    'order' => 'ASC'
-];
-?>
-<?php $events = get_posts($args); ?>
-
-<?php
-
-$terms = get_terms(array(
-    'taxonomy' => 'category',
-    'hide_empty' => false,
-)); ?>
-<div class="category-list">
-    <?php foreach ($terms as $term) : ?>
-
-        <a href="<?php echo get_term_link($term) ?> ">
-            <img src=" <?php echo get_field('image_icon', $term)  ?>" alt="">
-            <p> <?php echo get_field('title', $term)  ?></p>
-        </a>
-
-    <?php endforeach; ?>
-</div>
-
 
 <?php if (count($events)) : ?>
     <div class="event-container">
