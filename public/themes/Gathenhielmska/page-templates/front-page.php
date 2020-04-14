@@ -106,13 +106,8 @@ $args = [
         <?php foreach ($news as $post) : ?>
             <div class="test">
                 <div class="news-cards news-cards-front">
-<<<<<<< HEAD
                     <img class="news-thumbnail news-thumbnail-front" src="<?php the_field('image') ?>" alt="">
                     <div class="news-content-container news-content-container-front">
-=======
-                    <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
-                    <div class="news-content-container">
->>>>>>> 0001b1f2bf7d85871ecc1a7f40656ddb6ade5067
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('description') ?></p>
                         <div class="read-more-container read-more-container-front">

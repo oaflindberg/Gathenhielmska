@@ -1373,7 +1373,6 @@ a {
     width: 100vw;
   }
 
-<<<<<<< HEAD
   .news-container-front {
     width: 100vw;
   }
@@ -1393,14 +1392,6 @@ a {
 
   .news-container-front .read-more-container-front {
     width: inherit;
-=======
-  .news-cards-front {
-    min-width: 20vw;
-  }
-
-  .news-container {
-    min-width: 20vw;
->>>>>>> 0001b1f2bf7d85871ecc1a7f40656ddb6ade5067
   }
 }
 
