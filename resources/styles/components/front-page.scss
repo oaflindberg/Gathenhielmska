@@ -81,7 +81,7 @@
 @media screen and (min-width: 1024px) {
     .wrapper-front{
         flex-wrap: nowrap;
-  
+
     }
     .test{
         min-width: 20vw;
@@ -97,5 +97,26 @@
 .front-background-desktop{
     display:block;
     width: 100vw;
+}
+
+.news-container-front {
+  width: 100vw;
+
+  .news-cards-front {
+    width: 420px;
+    height: 527px;
+  }
+
+  .news-thumbnail-front {
+    width: inherit;
+  }
+
+  .news-content-container-front {
+    width: inherit;
+  }
+
+  .read-more-container-front {
+    width: inherit;
+  }
 }
  }

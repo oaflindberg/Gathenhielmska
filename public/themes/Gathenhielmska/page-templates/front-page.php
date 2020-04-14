@@ -102,15 +102,15 @@ $args = [
 <?php $news = get_posts($args); ?>
 <h3 class=" title news-front">Nyheter</h3>
 <?php if (count($news)) : ?>
-    <div class=" news-container wrapper-front">
+    <div class=" news-container news-container-front wrapper-front">
         <?php foreach ($news as $post) : ?>
             <div class="test">
-                <div class="news-cards">
-                    <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
-                    <div class="news-content-container">
+                <div class="news-cards news-cards-front">
+                    <img class="news-thumbnail news-thumbnail-front" src="<?php the_field('image') ?>" alt="">
+                    <div class="news-content-container news-content-container-front">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('description') ?></p>
-                        <div class="read-more-container">
+                        <div class="read-more-container read-more-container-front">
                             <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
                         </div>
                     </div>
