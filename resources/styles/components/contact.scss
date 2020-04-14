@@ -12,11 +12,11 @@
 h2.contact-main {
   font-size: 36px;
   font-weight: bold;
-  color: $orange
+  color: $light-orange
 }
 
 h3.contact-main {
-  color: $orange;
+  color: $light-orange;
 }
 
 .form-desktop {
@@ -31,7 +31,7 @@ h3.contact-main {
 
 .contact-heading {
   text-align: center;
-  color: $orange;
+  color: $light-orange;
 }
 
 .contact-heading-left {
@@ -41,7 +41,7 @@ h3.contact-main {
 
 .contact-paragraph {
   padding: 0 20px;
-  background: $green;
+  background: $greenBlue;
   color: $white;
 
   a {
@@ -144,7 +144,7 @@ h3.contact-main {
 //a 17 m 24
   #nf-field-17 {
     background: $gold;
-    color: $darkBlue;
+    color: $blueGat;
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ h3.contact-main {
         font-weight: normal;
         font-size: 16px;
         line-height: 19px;
-        color: $blue2;
+        color: $blue;
       }
     }
 
@@ -273,7 +273,7 @@ h3.contact-main {
     }
 
     .contact-heading-bg {
-      background: $green;
+      background: $greenBlue;
       width: 100vw;
       margin: 0;
       padding-left: 180px;

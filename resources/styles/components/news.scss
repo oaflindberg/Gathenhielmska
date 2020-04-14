@@ -25,7 +25,7 @@
   .news-content-container {
     width: calc(100vw - 40px);
     height: 172px;
-    background: $blueGathen;
+    background: $blueGat;
     color: $white;
     padding: 16px;
   }
@@ -49,7 +49,7 @@
       font-size: 13px;
       line-height: 16px;
       color: $white;
-      background: $orange;
+      background: $light-orange;
       border: none;
     }
   }
@@ -72,7 +72,7 @@
     padding: 2px 10px;
   }
   .tnp-subscription input[type=submit] {
-    background: $orange;
+    background: $light-orange;
     height: 24px;
     width: 59px;
     font-size: 13px;

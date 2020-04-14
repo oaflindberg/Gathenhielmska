@@ -3,7 +3,7 @@
 .event-btn {
   width: 112px;
   height: 30px;
-  background-color: $orange;
+  background-color: $light-orange;
   color: $white;
   border: none;
   font-size: 18px;
@@ -11,11 +11,11 @@
 }
 
 .archive-btn {
-  border: 1px solid $orange;
+  border: 1px solid $light-orange;
   width: 62px;
   height: 30px;
   background-color: $white;
-  color: $orange;
+  color: $light-orange;
   font-size: 18px;
   margin-right: 16px;
 }
@@ -90,14 +90,14 @@ width: 80%;
   width:78px;
   height: 23px;
   color: white;
-  background-color: $orange;
+  background-color: $light-orange;
   border: none;
 }
 
 .entrance{
   width:51px;
   height: 24px;
-  background-color: $orange;
+  background-color: $light-orange;
   position: relative;
   display: flex;
   justify-content: center;

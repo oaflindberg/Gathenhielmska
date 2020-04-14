@@ -142,11 +142,11 @@ p {
 h2.contact-main {
   font-size: 36px;
   font-weight: bold;
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 h3.contact-main {
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .form-desktop {
@@ -161,7 +161,7 @@ h3.contact-main {
 
 .contact-heading {
   text-align: center;
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .contact-heading-left {
@@ -533,7 +533,7 @@ h3.contact-main {
 }
 
 h2.info-main {
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .info-main {
@@ -542,7 +542,7 @@ h2.info-main {
 
 .info-heading {
   margin: 20px;
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .info-subheading {
@@ -757,7 +757,7 @@ h2.info-main {
 }
 
 .footer-wrapper h4 {
-  color: #E8680B;
+  color: #FB8D3D;
   font-size: 24px;
 }
 
@@ -811,7 +811,7 @@ h2.info-main {
 .event-btn {
   width: 112px;
   height: 30px;
-  background-color: #E8680B;
+  background-color: #FB8D3D;
   color: #FFF8F6;
   border: none;
   font-size: 18px;
@@ -819,11 +819,11 @@ h2.info-main {
 }
 
 .archive-btn {
-  border: 1px solid #E8680B;
+  border: 1px solid #FB8D3D;
   width: 62px;
   height: 30px;
   background-color: #FFF8F6;
-  color: #E8680B;
+  color: #FB8D3D;
   font-size: 18px;
   margin-right: 16px;
 }
@@ -849,7 +849,7 @@ a {
 }
 
 .event-cards {
-  background-color: #12495F;
+  background-color: #1E5D76;
   color: white;
   margin: 10px;
   width: calc(100vw - 40px);
@@ -902,14 +902,14 @@ a {
   width: 78px;
   height: 23px;
   color: white;
-  background-color: #E8680B;
+  background-color: #FB8D3D;
   border: none;
 }
 
 .entrance {
   width: 51px;
   height: 24px;
-  background-color: #E8680B;
+  background-color: #FB8D3D;
   position: relative;
   display: flex;
   justify-content: center;
@@ -991,7 +991,7 @@ a {
 
 .single-event {
   width: calc(100vw - 40px);
-  background-color: #12495F;
+  background-color: #1E5D76;
 }
 
 .single-event .thumbnail-single {
@@ -1014,7 +1014,7 @@ a {
 }
 
 .upcoming h3 {
-  color: #E8680B;
+  color: #FB8D3D;
   margin-bottom: 5px;
 }
 
@@ -1076,7 +1076,7 @@ a {
 
 .about-wrapper .about-us {
   margin-bottom: 16px;
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .about-wrapper div {
@@ -1086,7 +1086,7 @@ a {
 .about-wrapper h3 {
   font-size: 20px;
   margin-bottom: 16px;
-  color: #E8680B;
+  color: #FB8D3D;
 }
 
 .history-wrapper {
@@ -1163,7 +1163,7 @@ a {
 .single-news-wrapper .news-content-container {
   width: calc(100vw - 40px);
   height: 172px;
-  background: #12495F;
+  background: #112E33;
   color: #FFF8F6;
   padding: 16px;
 }
@@ -1192,7 +1192,7 @@ a {
   font-size: 13px;
   line-height: 16px;
   color: #FFF8F6;
-  background: #E8680B;
+  background: #FB8D3D;
   border: none;
 }
 
@@ -1217,7 +1217,7 @@ a {
 }
 
 .newsletter .tnp-subscription input[type=submit] {
-  background: #E8680B;
+  background: #FB8D3D;
   height: 24px;
   width: 59px;
   font-size: 13px;
@@ -1292,7 +1292,7 @@ a {
 }
 
 .front-text {
-  color: #E8680B;
+  color: #FB8D3D;
   width: 60%;
 }
 
@@ -1341,7 +1341,7 @@ a {
 
 .title {
   margin-left: 10px;
-  color: #E8680B;
+  color: #FB8D3D;
   font-size: 24px;
 }
 
