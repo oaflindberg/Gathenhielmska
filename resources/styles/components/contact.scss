@@ -102,6 +102,10 @@ h3.contact-main {
     padding: 20px 20px 0 20px;
   }
 
+  .ninja-forms-req-symbol {
+    color: $white;
+  }
+
   .nf-form-content .form-input {
     height: 27px;
   }
@@ -226,12 +230,14 @@ h3.contact-main {
 
     .collaborator-wrapper {
       display: grid;
+
       grid-template-columns: 349px 349px 349px;
       padding: 0 180px 0 80px;
       width: 100vw;
       grid-column-gap: 96px;
 
       .collaborator {
+        position: relative;
         height: 94px;
         margin-left: 0;
       }
@@ -317,6 +323,11 @@ h3.contact-main {
       font-weight: normal;
       font-size: 16px;
       line-height: 19px;
+    }
+
+    #nf-label-field-53::before {
+      height: 11px;
+      width: 11px;
     }
 
     .nf-form-layout {
