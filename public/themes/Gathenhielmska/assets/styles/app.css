@@ -499,6 +499,10 @@ h3.contact-main {
   }
 }
 
+.arrow-back-info {
+  padding-left: 20px;
+}
+
 .info-wrapper {
   margin-top: 140px;
   background: #FFF8F6;
@@ -929,13 +933,18 @@ a {
 }
 
 .event-text h3 {
-  font-weight: normal;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.event-text p {
+  margin-bottom: 8px;
 }
 
 .date-text {
   font-size: 14px;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .time-info {
@@ -968,12 +977,13 @@ a {
   margin-top: -40px;
   margin-left: 220px;
   color: #112E33 !important;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
 }
 
 .entrance-text {
   font-family: "Lato", sans-serif;
   font-weight: 300 !important;
-  font-style: thin !important;
 }
 
 .ticket-wrapper {
@@ -1041,9 +1051,9 @@ a {
   }
 }
 
-.arrow-back {
-  margin-right: 80%;
-  margin-bottom: 8px;
+.arrow-back-single {
+  margin-right: 82%;
+  padding-bottom: 8px;
 }
 
 .single-post-wrapper {
@@ -1080,14 +1090,16 @@ a {
 }
 
 .upcoming h3 {
-  color: #FB8D3D;
+  color: #DC6A00;
   margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .upcoming-title {
   margin-top: 5px;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .upcoming-wrapper {
@@ -1218,11 +1230,15 @@ a {
   margin-top: 101px;
 }
 
-.news-container .arrow-back,
-.single-news-wrapper .arrow-back {
+.news-container .arrow-back-news,
+.single-news-wrapper .arrow-back-news {
+  margin-left: 22px;
+}
+
+.news-container .arrow-back-news img,
+.single-news-wrapper .arrow-back-news img {
   width: 25px;
   height: 20px;
-  margin-left: 20px;
 }
 
 .news-container img,
@@ -1512,7 +1528,7 @@ a {
 
 .title {
   margin-left: 10px;
-  color: #FB8D3D;
+  color: #DC6A00;
   font-size: 24px;
 }
 
@@ -1620,6 +1636,7 @@ a {
   text-decoration: none;
   font-size: 10px;
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .category-list a {
