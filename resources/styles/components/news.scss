@@ -115,7 +115,7 @@
     object-fit: contain;
   }
 
-  .navigation {
+  .news-navigation {
     display: flex;
     width: calc(100vw-40px);
     align-items: center;
@@ -134,62 +134,64 @@
 
 @media screen and (min-width: 1024px) {
   .news-container {
-    // .testing-testing {
-    //   display: flex;
-    //   justify-content: space-evenly;
-    //   flex-wrap: wrap;
-    //   width: 100vw;
-    //   padding: 0 180px;
+    .testing-testing {
+      display: flex;
+      width: 100vw;
+      padding: 0 60px;
+    }
 
-      .news-cards {
-        width: 25vw;
+      .news-cards-rest, .news-card-plz-work {
+        width: 30vw;
         height: 527px;
         display: flex;
         flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
       }
 
-      .news-thumbnail, .news-content-container, .news-title, .news-short, .read-more-container {
-        width: 25vw;
+      .news-thumbnail-rest, .news-content-container-rest, .news-title-rest, .news-short-rest, .read-more-container-rest {
+        width: 30vw;
       }
 
-      .news-content-container {
+      .news-content-container-rest {
+        padding: 10px;
+      }
+
+      .news-content-container-rest {
         height: 273px;
         margin-top: -10px;
       }
 
-      .news-thumbnail {
+      .news-thumbnail-rest {
         height: 255px;
       }
 
-      .read-more-container {
+      .read-more-container-rest {
         position: relative;
         bottom: 10px;
       }
+
+      .first-news-newsletter {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        padding: 0 180px;
+      }
+       .news-card-first {
+        width: 50vw;
+        height: auto;
+      }
+
+      .news-thumbnail-first, .news-content-container-first, .news-title-first, .news-short-first, .read-more-container-first {
+        width: inherit;
+        height: auto;
+      }
+
+    .newsletter {
+      width: 20vw;
+      height: 350px;
+      background: $greenBlue;
     }
-
-    .first-news-newsletter {
-      display: flex;
-      justify-content: space-around;
-      width: 100vw;
-      padding: 0 180px;
     }
-     .news-card-first {
-      width: 50vw;
-      height: auto;
-    }
-
-    .news-thumbnail-first, .news-content-container-first, .news-title-first, .news-short-first, .read-more-container-first {
-      width: inherit;
-      height: inherit;
-    }
-
-  .newsletter {
-    width: 20vw;
-    height: 350px;
-    background: $greenBlue;
-  }
-
-
 }
-// }
 

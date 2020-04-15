@@ -99,7 +99,7 @@ $args = [
     'numberposts' => 10,
     'post_type' => 'News',
     'orderby' => 'date',
-    'order' => 'ASC'
+    'order' => 'DESC'
 ];
 ?>
 <?php $news = get_posts($args); ?>
@@ -112,6 +112,7 @@ $args = [
                     <img class="news-thumbnail news-thumbnail-front" src="<?php the_field('image') ?>" alt="">
                     <div class="news-content-container news-content-container-front">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                        <p class="news-time"><?php echo the_time('F j, Y') ?></p>
                         <p class="news-short"><?php echo the_field('description') ?></p>
                         <div class="read-more-container read-more-container-front">
                             <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
