@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap);@charset "UTF-8";
 
 /* WordPlate */
 
@@ -490,6 +490,10 @@ h3.contact-main {
   }
 }
 
+.arrow-back-info {
+  padding-left: 20px;
+}
+
 .info-wrapper {
   margin-top: 140px;
   background: #FFF8F6;
@@ -921,13 +925,18 @@ a {
 }
 
 .event-text h3 {
-  font-weight: normal;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.event-text p {
+  margin-bottom: 8px;
 }
 
 .date-text {
   font-size: 14px;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .time-info {
@@ -960,12 +969,13 @@ a {
   margin-top: -40px;
   margin-left: 220px;
   color: #112E33 !important;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
 }
 
 .entrance-text {
   font-family: "Lato", sans-serif;
   font-weight: 300 !important;
-  font-style: thin !important;
 }
 
 .ticket-wrapper {
@@ -1033,9 +1043,9 @@ a {
   }
 }
 
-.arrow-back {
-  margin-right: 80%;
-  margin-bottom: 8px;
+.arrow-back-single {
+  margin-right: 82%;
+  padding-bottom: 8px;
 }
 
 .single-post-wrapper {
@@ -1072,14 +1082,16 @@ a {
 }
 
 .upcoming h3 {
-  color: #FB8D3D;
+  color: #DC6A00;
   margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .upcoming-title {
   margin-top: 5px;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .upcoming-wrapper {
@@ -1210,11 +1222,15 @@ a {
   margin-top: 101px;
 }
 
-.news-container .arrow-back,
-.single-news-wrapper .arrow-back {
+.news-container .arrow-back-news,
+.single-news-wrapper .arrow-back-news {
+  margin-left: 22px;
+}
+
+.news-container .arrow-back-news img,
+.single-news-wrapper .arrow-back-news img {
   width: 25px;
   height: 20px;
-  margin-left: 20px;
 }
 
 .news-container img,
@@ -1350,65 +1366,57 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-  .news-container .testing-testing {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100vw;
-    padding: 0 180px;
-  }
-
-  .news-container .testing-testing .news-cards {
+  .news-container .news-cards {
     width: 25vw;
     height: 527px;
     display: flex;
     flex-direction: column;
   }
 
-  .news-container .testing-testing .news-thumbnail,
-  .news-container .testing-testing .news-content-container,
-  .news-container .testing-testing .news-title,
-  .news-container .testing-testing .news-short,
-  .news-container .testing-testing .read-more-container {
+  .news-container .news-thumbnail,
+  .news-container .news-content-container,
+  .news-container .news-title,
+  .news-container .news-short,
+  .news-container .read-more-container {
     width: 25vw;
   }
 
-  .news-container .testing-testing .news-content-container {
+  .news-container .news-content-container {
     height: 273px;
     margin-top: -10px;
   }
 
-  .news-container .testing-testing .news-thumbnail {
+  .news-container .news-thumbnail {
     height: 255px;
   }
 
-  .news-container .testing-testing .read-more-container {
+  .news-container .read-more-container {
     position: relative;
     bottom: 10px;
   }
 
-  .news-container .first-news-newsletter {
+  .first-news-newsletter {
     display: flex;
     justify-content: space-around;
     width: 100vw;
     padding: 0 180px;
   }
 
-  .news-container .news-card-first {
+  .news-card-first {
     width: 50vw;
     height: auto;
   }
 
-  .news-container .news-thumbnail-first,
-  .news-container .news-content-container-first,
-  .news-container .news-title-first,
-  .news-container .news-short-first,
-  .news-container .read-more-container-first {
+  .news-thumbnail-first,
+  .news-content-container-first,
+  .news-title-first,
+  .news-short-first,
+  .read-more-container-first {
     width: inherit;
     height: inherit;
   }
 
-  .news-container .newsletter {
+  .newsletter {
     width: 20vw;
     height: 350px;
     background: #36717B;
@@ -1499,7 +1507,7 @@ a {
 
 .title {
   margin-left: 10px;
-  color: #FB8D3D;
+  color: #DC6A00;
   font-size: 24px;
 }
 
@@ -1607,6 +1615,7 @@ a {
   text-decoration: none;
   font-size: 10px;
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .category-list a {

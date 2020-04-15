@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <div class="single-news-wrapper">
-    <img class="arrow-back" src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
-
+    <a class="arrow-back-news" href="http://localhost:8000/nyheter/">
+        <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
+    </a>
     <?php if (have_posts()) : ?>
         <div class="single-news">
             <?php while (have_posts()) : the_post(); ?>

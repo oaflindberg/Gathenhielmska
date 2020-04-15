@@ -1,6 +1,6 @@
-.arrow-back{
-  margin-right: 80%;
-    margin-bottom: 8px;
+.arrow-back-single{
+  margin-right: 82%;
+  padding-bottom: 8px;
 }
 .single-post-wrapper{
     display: flex;
@@ -34,15 +34,19 @@
 .upcoming{
   width: calc(100vw - 40px);
   h3{
-    color: $light-orange;
+    color: $dark-orange;
     margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+   
   }
 }
 
 .upcoming-title {
   margin-top: 5px;
   font-family: Lato;
-  font-weight: normal;
+
+  font-weight: 500;
 }
 .upcoming-wrapper{
   display: flex;

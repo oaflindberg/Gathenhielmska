@@ -74,7 +74,11 @@ a{
   flex-direction: column;
   justify-content: space-around;
   h3{
-    font-weight: normal;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  p{
+    margin-bottom: 8px;
   }
 
 
@@ -82,7 +86,7 @@ a{
 .date-text{
   font-size: 14px;
   font-family: Lato;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .time-info{
@@ -114,13 +118,14 @@ width: 80%;
   margin-top: -40px;
   margin-left: 220px;
   color: $blueGat !important;
-
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
 
 }
 .entrance-text{
   font-family: 'Lato', sans-serif;
   font-weight: 300 !important;
-  font-style: thin !important;
+
 }
 
 .ticket-wrapper {

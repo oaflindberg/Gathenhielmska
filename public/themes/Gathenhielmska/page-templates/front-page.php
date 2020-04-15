@@ -96,7 +96,7 @@ $terms = get_terms(array(
 
 <?php
 $args = [
-    'numberposts' => 10,
+    'numberposts' => 3,
     'post_type' => 'News',
     'orderby' => 'date',
     'order' => 'ASC'

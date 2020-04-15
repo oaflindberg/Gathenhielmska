@@ -1,8 +1,10 @@
 <?php get_header(); ?>
+
 <div class="single-page">
     <div class="single-post-wrapper">
-        <img class="arrow-back" src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
-
+        <a class="arrow-back-single" href="http://localhost:8000/evenemang/">
+            <img src="<?php bloginfo('template_directory') ?>/assets/images/icons/arrow-back.svg" alt="back">
+        </a>
         <?php if (have_posts()) : ?>
 
             <div class="single-event">
@@ -17,6 +19,8 @@
                         <div>
                             <p class="entrance-text"> <b>Inträde:</b> <?php echo the_field('entrance') ?> </p>
                         </div>
+
+
                         <div class="time-info">
                             <div>
                                 <p class="date-text"> <?php echo the_field('date') ?> </p>
