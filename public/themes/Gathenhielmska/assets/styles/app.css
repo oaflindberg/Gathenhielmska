@@ -847,7 +847,7 @@ h2.info-main {
 .event-btn {
   width: 112px;
   height: 30px;
-  background-color: #FB8D3D;
+  background-color: #DC6A00;
   color: #FFF8F6;
   border: none;
   font-size: 18px;
@@ -855,7 +855,7 @@ h2.info-main {
 }
 
 .archive-btn {
-  border: 1px solid #FB8D3D;
+  border: 1px solid #DC6A00;
   width: 62px;
   height: 30px;
   background-color: #FFF8F6;
@@ -924,10 +924,6 @@ a {
   font-weight: normal;
 }
 
-.event-text div {
-  padding: 5px 0px 5px 0px;
-}
-
 .date-text {
   font-size: 14px;
   font-family: Lato;
@@ -964,14 +960,22 @@ a {
   margin-top: -40px;
   margin-left: 220px;
   color: #112E33 !important;
-  font-family: Lato;
-  font-size: 13px;
+}
+
+.entrance-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 300 !important;
+  font-style: thin !important;
 }
 
 .ticket-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.ticket-wrapper button {
+  font-size: 13px;
 }
 
 .navigation {
@@ -1159,7 +1163,7 @@ a {
 }
 
 .history-line {
-  border-left: 3px solid black;
+  border-left: 3px solid #EDC8BF;
   height: 614px;
   display: flex;
   flex-direction: column;
@@ -1168,31 +1172,37 @@ a {
 }
 
 .year-line {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #EDC8BF;
   width: 20px;
-  margin-left: -10px;
+  margin-left: -3px;
 }
 
 .history-test {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
+  margin-top: -20px;
 }
 
 .year-text {
   display: flex;
   margin: 0;
+  align-items: center;
   justify-content: space-evenly;
 }
 
+.year-text p {
+  font-family: Lato;
+}
+
 .year {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .info-text {
   font-size: 14px;
-  width: 60%;
+  width: 75%;
 }
 
 .news-container,
@@ -1424,17 +1434,19 @@ a {
   height: 70vh;
   margin-top: -82vh;
   margin-bottom: 110px;
-  width: 40px;
 }
 
 .text-wrapper h4 {
   color: white;
   font-size: 30px;
-  margin-left: 250px;
+  font-weight: normal;
+  width: 100px;
+  position: relative;
+  text-align: center;
 }
 
 .front-text {
-  color: #FB8D3D;
+  font-size: 24px;
   width: 60%;
 }
 
@@ -1507,6 +1519,13 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
   .second-text {
     margin-top: -10%;
     margin-bottom: 20%;

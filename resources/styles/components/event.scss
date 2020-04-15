@@ -6,7 +6,7 @@
 .event-btn {
   width: 112px;
   height: 30px;
-  background-color: $light-orange;
+  background-color: $dark-orange;
   color: $white;
   border: none;
   font-size: 18px;
@@ -14,7 +14,7 @@
 }
 
 .archive-btn {
-  border: 1px solid $light-orange;
+  border: 1px solid $dark-orange;
   width: 62px;
   height: 30px;
   background-color: $white;
@@ -77,9 +77,6 @@ a{
     font-weight: normal;
   }
 
-  div{
-    padding: 5px 0px 5px 0px;
-  }
 
 }
 .date-text{
@@ -117,14 +114,22 @@ width: 80%;
   margin-top: -40px;
   margin-left: 220px;
   color: $blueGat !important;
-  font-family: Lato;
-  font-size: 13px;
+
+
+}
+.entrance-text{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+  font-style: thin !important;
 }
 
 .ticket-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  button{
+    font-size: 13px;
+  }
   
 }
 

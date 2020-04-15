@@ -24,7 +24,7 @@
 }
 
 .history-line {
-    border-left: 3px solid black;
+    border-left: 3px solid $pink;
     height: 614px;
     display: flex;
     flex-direction: column;
@@ -33,31 +33,35 @@
 }
 
 .year-line {
-    border-bottom: 3px solid black;
-
+    border-bottom: 3px solid $pink;
     width: 20px;
-
-    margin-left: -10px;
+    margin-left:-3px;
 
 }
 .history-test {
     width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
+    margin-top: -20px;
 }
 
 .year-text {
     display: flex;
     margin: 0;
+align-items: center;
     justify-content: space-evenly;
+   p{
+    font-family: Lato;
+   }
 }
 
 .year {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .info-text {
     font-size: 14px;
-    width: 60%;
+    width: 75%;
 }
+

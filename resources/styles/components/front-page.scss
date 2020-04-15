@@ -15,17 +15,19 @@
     height: 70vh;
     margin-top: -82vh;
     margin-bottom: 110px;
-    width: 40px;
+    
     h4 {
         color: white;
         font-size: 30px;
-        margin-left: 250px;
-
+        font-weight: normal;
+        width: 100px;
+position: relative;
+text-align: center;
     }
 }
 
 .front-text{
-    color: $light-orange;
+   font-size: 24px;
     width: 60%;
 }
 
@@ -97,6 +99,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .text-wrapper{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       width: 100vw;
+    }
 
     .second-text{
         margin-top: -10%;

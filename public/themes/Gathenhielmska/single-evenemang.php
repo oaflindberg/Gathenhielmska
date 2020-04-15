@@ -11,6 +11,12 @@
                     <img class="thumbnail-single" src="<?php the_field('thumbnail') ?>" alt="">
 
                     <div class="single-event-text">
+                        <div>
+                            <h3> <?php the_title(); ?></h3>
+                        </div>
+                        <div>
+                            <p class="entrance-text"> <b>Inträde:</b> <?php echo the_field('entrance') ?> </p>
+                        </div>
                         <div class="time-info">
                             <div>
                                 <p class="date-text"> <?php echo the_field('date') ?> </p>
@@ -21,12 +27,8 @@
                                 <p class="date-text"> <?php echo the_field('end_time') ?> </p>
                             </div>
                         </div>
-                        <div>
-                            <p>Inträde: <?php echo the_field('entrance') ?> </p>
-                        </div>
-                        <div>
-                            <h3> <?php the_title(); ?></h3>
-                        </div>
+
+
 
                         <div>
                             <?php the_content(); ?>
