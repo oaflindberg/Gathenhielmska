@@ -138,11 +138,6 @@ h2.info-main {
   p.info-main {
     width: 529px;
     margin: 0 16px;
-
-
-    a {
-      color: $blue;
-    }
   }
 
   h3.info-heading {
@@ -156,13 +151,6 @@ h2.info-main {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-  }
-
-  .info-paragraph {
-
-      a {
-        color: $blue;
-      }
   }
 
   .room-wrapper {
@@ -180,6 +168,10 @@ h2.info-main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+
+    img {
+      margin-top: 20px;
+    }
   }
 
   .info-salongen {

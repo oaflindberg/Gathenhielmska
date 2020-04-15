@@ -640,10 +640,6 @@ h2.info-main {
     margin: 0 16px;
   }
 
-  p.info-main a {
-    color: #1E5D76;
-  }
-
   h3.info-heading {
     font-weight: 600;
     font-size: 24px;
@@ -655,10 +651,6 @@ h2.info-main {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-  }
-
-  .info-paragraph a {
-    color: #1E5D76;
   }
 
   .room-wrapper {
@@ -674,6 +666,10 @@ h2.info-main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+  }
+
+  .inner-room-wrapper img {
+    margin-top: 20px;
   }
 
   .info-salongen {
