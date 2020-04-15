@@ -513,23 +513,54 @@ h3.contact-main {
 
 h2.info-main {
   color: #FB8D3D;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .info-main {
   margin: 20px;
 }
 
+.info-main a {
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #1E5D76;
+}
+
 .info-heading {
   margin: 20px;
   color: #FB8D3D;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .info-subheading {
   margin-left: 20px;
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .info-paragraph {
   margin: 20px;
+}
+
+.info-paragraph a {
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #1E5D76;
 }
 
 .info-image {
@@ -599,7 +630,6 @@ h2.info-main {
   }
 
   h2.info-main {
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 43px;
@@ -608,50 +638,26 @@ h2.info-main {
   p.info-main {
     width: 529px;
     margin: 0 16px;
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
   }
 
   p.info-main a {
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
     color: #1E5D76;
   }
 
   h3.info-heading {
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
   }
 
   .info-subheading {
-    font-style: normal;
+    margin-left: 20px;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
   }
 
-  .info-paragraph {
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-  }
-
   .info-paragraph a {
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
     color: #1E5D76;
   }
 
@@ -659,7 +665,7 @@ h2.info-main {
     min-width: 100vw;
     display: grid;
     grid-template-columns: 420px 420px 420px;
-    grid-template-rows: 443px 443px;
+    grid-template-rows: 1fr 1fr;
     grid-column-gap: 20px;
   }
 
