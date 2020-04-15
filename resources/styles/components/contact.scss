@@ -12,11 +12,15 @@
 h2.contact-main {
   font-size: 36px;
   font-weight: bold;
-  color: $light-orange
+  color: #E8680B;
 }
 
 h3.contact-main {
   color: $light-orange;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .form-desktop {
@@ -45,12 +49,13 @@ h3.contact-main {
   color: $white;
 
   a {
-    color: $pink;
+    @include Georgia;
+    color: $gold;
     text-decoration: none;
   }
 
   a:visited {
-    color: $pink;
+    color: $gold;
   }
 
 }
@@ -74,8 +79,8 @@ h3.contact-main {
   text-align: center;
 
   a {
+    @include Georgia;
     color: black;
-    font-family: 'minion pro';
     text-decoration: none;
   }
 
@@ -85,11 +90,12 @@ h3.contact-main {
 }
 
 .nf-form-content label {
-  font-family: 'Minion Pro' !important;
+  font-family: Georgia, serif !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-size: 16px !important;
-  line-height: 19px !important;
+  line-height: 130% !important;
+  letter-spacing: 0.02em !important;
 }
 
 .nf-form-layout {
@@ -98,12 +104,12 @@ h3.contact-main {
   z-index: -1;
 
   a {
-    color: $pink;
+    color: $gold;
     text-decoration: none;
   }
 
   a:visited {
-    color: $pink;
+    color: $gold;
   }
 
   form {
@@ -145,13 +151,9 @@ h3.contact-main {
   #nf-field-17 {
     background: $gold;
     color: $blueGat;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-    font-size: 18px;
   }
-
-
 
 }
 
@@ -189,34 +191,28 @@ h3.contact-main {
     margin-top: 0;
 
     h2.contact-main {
+      color: $dark-orange;
       padding-left: 180px;
       margin: 0;
       margin-top: 32px;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
     }
 
     p.contact-main {
       width: 734px;
-      font-family: 'Minion Pro';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 19px;
 
       a {
-        font-family: 'Minion Pro';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
         color: $blue;
       }
     }
 
     h3.contact-main, .contact-heading {
-      font-family: Lato;
-      font-style: normal;
       font-weight: 600;
       font-size: 24px;
+      line-height: 29px;
+      color: $dark-orange;
     }
 
     h3.contact-main, p.contact-main {
@@ -300,45 +296,16 @@ h3.contact-main {
 
     .nf-form-fields-required {
       padding-left: 135px;
-      font-family: 'Minion Pro';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 19px;
-    }
-
-    #nf-label-field-44,
-    #nf-label-field-45,
-    #nf-label-field-46,
-    #nf-label-field-48,
-    #nf-label-field-49,
-    #nf-label-field-50,
-    #nf-label-class-field-50-0,
-    #nf-label-class-field-50-1,
-    #nf-label-field-51,
-    #nf-label-field-51-0,
-    #nf-label-field-51-1,
-    #nf-label-field-51-2,
-    #nf-label-field-51-3,
-    #nf-label-field-51-4,
-    #nf-label-field-51-5,
-    #nf-label-field-51-6,
-    #nf-label-field-53 {
-      font-family: 'Minion Pro';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 19px;
-    }
-
-    #nf-label-field-53::before {
-      height: 11px;
-      width: 11px;
     }
 
     .submit-container {
       justify-content: flex-start;
       padding: 0;
+    }
+
+    #nf-field-47 {
+      background: $gold;
+      color: $blueGat;
     }
 
     .nf-form-layout {

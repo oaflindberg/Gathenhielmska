@@ -7,7 +7,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 129%;
+  line-height: 130%;
   letter-spacing: 0.02em;
 }
 
@@ -142,11 +142,15 @@ p {
 h2.contact-main {
   font-size: 36px;
   font-weight: bold;
-  color: #FB8D3D;
+  color: #E8680B;
 }
 
 h3.contact-main {
   color: #FB8D3D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .form-desktop {
@@ -176,12 +180,18 @@ h3.contact-main {
 }
 
 .contact-paragraph a {
-  color: #EDC8BF;
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #F1E898;
   text-decoration: none;
 }
 
 .contact-paragraph a:visited {
-  color: #EDC8BF;
+  color: #F1E898;
 }
 
 .collaborator {
@@ -204,8 +214,13 @@ h3.contact-main {
 }
 
 .other-actor a {
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
   color: black;
-  font-family: "minion pro";
   text-decoration: none;
 }
 
@@ -214,11 +229,12 @@ h3.contact-main {
 }
 
 .nf-form-content label {
-  font-family: "Minion Pro" !important;
+  font-family: Georgia, serif !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-size: 16px !important;
-  line-height: 19px !important;
+  line-height: 130% !important;
+  letter-spacing: 0.02em !important;
 }
 
 .nf-form-layout {
@@ -228,12 +244,12 @@ h3.contact-main {
 }
 
 .nf-form-layout a {
-  color: #EDC8BF;
+  color: #F1E898;
   text-decoration: none;
 }
 
 .nf-form-layout a:visited {
-  color: #EDC8BF;
+  color: #F1E898;
 }
 
 .nf-form-layout form {
@@ -275,10 +291,8 @@ h3.contact-main {
 .nf-form-layout #nf-field-17 {
   background: #F1E898;
   color: #112E33;
-  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
-  font-size: 18px;
 }
 
 .nf-field-element ul {
@@ -315,35 +329,29 @@ h3.contact-main {
   }
 
   .contact-wrapper h2.contact-main {
+    color: #DC6A00;
     padding-left: 180px;
     margin: 0;
     margin-top: 32px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
   }
 
   .contact-wrapper p.contact-main {
     width: 734px;
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
   }
 
   .contact-wrapper p.contact-main a {
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
     color: #1E5D76;
   }
 
   .contact-wrapper h3.contact-main,
   .contact-wrapper .contact-heading {
-    font-family: Lato;
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
+    line-height: 29px;
+    color: #DC6A00;
   }
 
   .contact-wrapper h3.contact-main,
@@ -429,45 +437,16 @@ h3.contact-main {
 
   .contact-wrapper .nf-form-fields-required {
     padding-left: 135px;
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  .contact-wrapper #nf-label-field-44,
-  .contact-wrapper #nf-label-field-45,
-  .contact-wrapper #nf-label-field-46,
-  .contact-wrapper #nf-label-field-48,
-  .contact-wrapper #nf-label-field-49,
-  .contact-wrapper #nf-label-field-50,
-  .contact-wrapper #nf-label-class-field-50-0,
-  .contact-wrapper #nf-label-class-field-50-1,
-  .contact-wrapper #nf-label-field-51,
-  .contact-wrapper #nf-label-field-51-0,
-  .contact-wrapper #nf-label-field-51-1,
-  .contact-wrapper #nf-label-field-51-2,
-  .contact-wrapper #nf-label-field-51-3,
-  .contact-wrapper #nf-label-field-51-4,
-  .contact-wrapper #nf-label-field-51-5,
-  .contact-wrapper #nf-label-field-51-6,
-  .contact-wrapper #nf-label-field-53 {
-    font-family: "Minion Pro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  .contact-wrapper #nf-label-field-53::before {
-    height: 11px;
-    width: 11px;
   }
 
   .contact-wrapper .submit-container {
     justify-content: flex-start;
     padding: 0;
+  }
+
+  .contact-wrapper #nf-field-47 {
+    background: #F1E898;
+    color: #112E33;
   }
 
   .contact-wrapper .nf-form-layout {

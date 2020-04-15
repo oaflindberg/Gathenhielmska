@@ -8,3 +8,12 @@ $dark-orange: #DC6A00;
 $light-orange: #FB8D3D;
 $white: #FFF8F6;
 $gold: #F1E898;
+
+@mixin Georgia {
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
