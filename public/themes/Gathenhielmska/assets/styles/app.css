@@ -1052,6 +1052,23 @@ a {
   }
 }
 
+.navigation-event {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-event a {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
 .arrow-back-single {
   margin-right: 82%;
   padding-bottom: 8px;

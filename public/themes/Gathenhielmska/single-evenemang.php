@@ -51,7 +51,7 @@
                                 </a>
                             <?php endforeach; ?>
                         </div>
-                        <div class="navigation">
+                        <div class="navigation-event">
                             <div>
                                 <?php previous_post_link(); ?>
                             </div>
