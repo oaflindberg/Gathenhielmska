@@ -11,7 +11,7 @@
                     <div class="news-content-container">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
                         <p class="news-short"><?php echo the_field('content') ?></p>
-                        <div class="navigation">
+                        <div class="news-navigation">
                             <div>
                                 <?php previous_post_link(); ?>
                             </div>

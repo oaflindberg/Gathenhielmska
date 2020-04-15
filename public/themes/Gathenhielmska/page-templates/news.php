@@ -25,6 +25,7 @@ $argsFirst = [
                     <img class="news-thumbnail news-thumbnail-first" src="<?php the_field('image') ?>" alt="">
                     <div class="news-content-container news-content-container-first">
                         <h3 class="news-title news-title-first"><?php echo the_field('title') ?> </h3>
+                        <p class="news-time-first"><?php echo the_time('F j, Y') ?></p>
                         <p class="news-short news-short-first"><?php echo the_field('description') ?></p>
                         <div class="read-more-container read-more-container-first">
                             <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
@@ -44,15 +45,14 @@ $argsFirst = [
         </div>
         <div class="testing-testing">
             <?php foreach (array_slice($news, 1) as $post) : ?>
-                <div class="news-cards">
-                    <div class="news-card-plz-work">
-                        <img class="news-thumbnail" src="<?php the_field('image') ?>" alt="">
-                        <div class="news-content-container">
-                            <h3 class="news-title"><?php echo the_field('title') ?> </h3>
-                            <p class="news-short"><?php echo the_field('description') ?></p>
-                            <div class="read-more-container">
-                                <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
-                            </div>
+                <div class="news-cards news-cards-rest ">
+                    <img class="news-thumbnail news-thumbnail-rest" src="<?php the_field('image') ?>" alt="">
+                    <div class="news-content-container news-content-container-rest">
+                        <h3 class="news-title news-title-rest"><?php echo the_field('title') ?> </h3>
+                        <p class="news-time-first"><?php echo the_time('F j, Y') ?></p>
+                        <p class="news-short news-short-rest"><?php echo the_field('description') ?></p>
+                        <div class="read-more-container read-more-container-rest">
+                            <a class="read-more" href="<?php echo get_permalink($post); ?>"><button class="read-more-btn">Läs mer</button></a>
                         </div>
                     </div>
                 </div>

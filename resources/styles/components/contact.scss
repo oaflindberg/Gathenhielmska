@@ -242,8 +242,13 @@ h3.contact-main {
       padding-left: 80px;
 
       .collaborator {
+        text-align: left;
         height: 94px;
-        margin: 0 100px;
+        margin: 0 80px;
+      }
+
+      .collaborator:nth-child(1) {
+        margin-left: 100px;
       }
     }
 
@@ -256,6 +261,7 @@ h3.contact-main {
 
       .other-actor {
         margin: 20px 96px;
+        text-align: left;
         a {
           margin-top: 9px;
           font-size: 18px;
@@ -263,8 +269,11 @@ h3.contact-main {
       }
 
       .other-actor:nth-child(4) {
-        margin: 20px 100px 20px 60px;
-        width: 300px;
+        width: 280px;
+      }
+
+      .other-actor:nth-child(5) {
+        margin-left: 60px;
       }
     }
 
