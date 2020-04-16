@@ -163,7 +163,7 @@ p {
 }
 
 .contact-wrapper {
-  margin-top: 101px;
+  margin-top: 41px;
   background: #FFF8F6;
   font-family: "Lato", sans-serif;
 }
@@ -183,7 +183,7 @@ h2.contact-main {
 }
 
 h3.contact-main {
-  color: #FB8D3D;
+  color: #DC6A00;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -202,7 +202,7 @@ h3.contact-main {
 
 .contact-heading {
   text-align: center;
-  color: #FB8D3D;
+  color: #DC6A00;
 }
 
 .contact-heading-left {
