@@ -10,6 +10,7 @@
                     <img class="news-thumbnail single-news-thumbnail" src="<?php the_field('image') ?>" alt="">
                     <div class="news-content-container single-news-content-container">
                         <h3 class="news-title"><?php echo the_field('title') ?> </h3>
+                        <p class="news-time"><?php echo the_time('F j Y') ?></p>
                         <p class="news-short"><?php echo the_field('content') ?></p>
                         <div class="news-navigation">
                             <div>
