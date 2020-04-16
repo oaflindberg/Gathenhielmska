@@ -158,6 +158,8 @@ h3.contact-main {
     color: $blueGat;
     display: flex;
     align-items: center;
+    height: 36px;
+    width: 70px;
   }
   #nf-field-35 {
     background: $gold;
@@ -327,6 +329,10 @@ h3.contact-main {
     #nf-field-47 {
       background: $gold;
       color: $blueGat;
+      display: flex;
+      align-items: center;
+      height: 36px;
+      width: 70px;
     }
 
     .nf-form-layout {
