@@ -144,6 +144,7 @@ margin-left: 22px;
 }
 
 @media screen and (min-width: 1024px) {
+
   .news-container {
     margin-top: 133px;
     padding: 0 70px;
@@ -225,6 +226,9 @@ margin-left: 22px;
     }
 
     .single-news-wrapper {
+      .arrow-back-news{
+        margin-left: 400px;
+      }
       .single-news {
         display: flex;
         justify-content: center;

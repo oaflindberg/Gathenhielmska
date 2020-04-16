@@ -93,6 +93,7 @@
 }
 .upcoming-h3{
     margin-bottom: -80px;
+    
 }
 
 .news-time {
@@ -117,6 +118,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .upcoming-h3{
+        margin-bottom: -80px;
+        padding: 0 110px;
+    }
     .text-wrapper{
         display:flex;
         align-items: center;
@@ -125,8 +130,11 @@
     }
 
     .second-text{
-        margin-top: -10%;
+        width: 300px;
+        margin-top: -13%;
         margin-bottom: 20%;
+        margin-left: 300px;
+        text-align: center;
     }
     .wrapper-front{
         flex-wrap: nowrap;
