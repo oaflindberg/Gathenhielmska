@@ -15,7 +15,7 @@
     height: 70vh;
     margin-top: -82vh;
     margin-bottom: 110px;
-    
+
     h4 {
         color: white;
         font-size: 30px;
@@ -91,7 +91,7 @@ text-align: center;
     .background-mobile  {
         display:none
       }
-      
+
       .background-desktop{
           display:block;
          width: 100%;
@@ -136,6 +136,7 @@ text-align: center;
 
 .news-container-front {
   width: 100vw;
+  padding: 0 70px;
 
   .news-cards-front {
     width: 420px;
@@ -148,10 +149,13 @@ text-align: center;
 
   .news-content-container-front {
     width: inherit;
+    height: 273px;
   }
 
   .read-more-container-front {
     width: inherit;
+    position: static;
+    bottom: 10px;
   }
 }
  }

@@ -1610,6 +1610,7 @@ a {
 
   .news-container-front {
     width: 100vw;
+    padding: 0 70px;
   }
 
   .news-container-front .news-cards-front {
@@ -1623,10 +1624,13 @@ a {
 
   .news-container-front .news-content-container-front {
     width: inherit;
+    height: 273px;
   }
 
   .news-container-front .read-more-container-front {
     width: inherit;
+    position: static;
+    bottom: 10px;
   }
 }
 
