@@ -69,6 +69,10 @@ p {
   color: #FFF8F6;
 }
 
+.navigation-under .logo {
+  padding-left: 28px;
+}
+
 .navigation ul li a {
   color: #FFF8F6;
   text-decoration: none;

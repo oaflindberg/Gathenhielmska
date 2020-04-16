@@ -10,7 +10,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <nav class="navigation-under">Gathenhielmska</nav>
+    <nav class="navigation-under">
+        <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+    </nav>
     <header>
         <nav role="navigation" class="navigation">
             <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
