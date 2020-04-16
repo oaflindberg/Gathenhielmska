@@ -6,6 +6,7 @@
     margin-top: 101px;
     padding-right: 16px;
     padding-left: 16px;
+
     .about-us{
         margin-bottom: 16px;
         color: $dark-orange;
@@ -40,6 +41,7 @@
     margin-left:-3px;
 
 }
+
 .history-container {
     width: 90%;
     display: flex;
@@ -51,9 +53,10 @@
 .year-text {
     display: flex;
     margin: 0;
-align-items: center;
+    align-items: center;
     justify-content: space-evenly;
-   p{
+
+   p {
     font-family: Lato;
    }
 }
@@ -75,14 +78,15 @@ align-items: center;
     .history-wrapper{
         display:none;
     }
-    .history-container{
+
+    .history-container {
         display: none;
     }
 
-    .about-wrapper{
+    .about-wrapper {
         display: flex;
         justify-content: center;
         flex-direction: column;
- padding: 0 300px;
+        padding: 0 300px;
     }
  }
