@@ -1370,6 +1370,8 @@ a {
   background: #1E5D76;
   color: #FFF8F6;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .news-container .news-short,
@@ -1456,10 +1458,9 @@ a {
 }
 
 .single-news-wrapper .single-news-thumbnail {
-  padding: 10px;
-  width: 315px;
+  width: inherit;
   height: 239px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .single-news-wrapper .news-navigation {
