@@ -91,9 +91,8 @@ a{
 
 .time-info{
   display: flex;
-justify-content: space-between;
-width: 80%;
   div {
+    padding-right: 6px;
     display: flex;
   }
 }
@@ -158,6 +157,7 @@ width: 80%;
 
 @media screen and (min-width: 1024px) { 
 
+
   .event-cards {
     width: 310px;
     height: 350px;
@@ -175,11 +175,12 @@ width: 80%;
   }
 
 .btn-category-wrapper{
-  margin-top:-40px;
+  margin-top:40px;
   display: flex;
   width: 50%;
   align-items: flex-end;
 }
+
 .buttons{
  justify-content: start;
 }

@@ -983,11 +983,10 @@ a {
 
 .time-info {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
 }
 
 .time-info div {
+  padding-right: 6px;
   display: flex;
 }
 
@@ -1069,7 +1068,7 @@ a {
   }
 
   .btn-category-wrapper {
-    margin-top: -40px;
+    margin-top: 40px;
     display: flex;
     width: 50%;
     align-items: flex-end;
@@ -1095,6 +1094,14 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.navigation-event div {
+  padding: 6px !important;
+}
+
+.navigation-event div a {
+  font-size: 14px;
 }
 
 .navigation-event a {
@@ -1219,7 +1226,7 @@ a {
 
 .about-wrapper .about-us {
   margin-bottom: 16px;
-  color: #FB8D3D;
+  color: #DC6A00;
 }
 
 .about-wrapper div {
@@ -1229,7 +1236,7 @@ a {
 .about-wrapper h3 {
   font-size: 20px;
   margin-bottom: 16px;
-  color: #FB8D3D;
+  color: #DC6A00;
 }
 
 .history-wrapper {
@@ -1287,6 +1294,13 @@ a {
 
   .history-container {
     display: none;
+  }
+
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 300px;
   }
 }
 

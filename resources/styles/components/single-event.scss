@@ -4,6 +4,13 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+ 
+  div{
+    padding: 6px !important;
+    a{
+      font-size: 14px;
+    }
+  }
   
   a{
     font-family: 'Lato', sans-serif;
