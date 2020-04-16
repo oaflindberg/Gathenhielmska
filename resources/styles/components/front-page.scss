@@ -26,6 +26,17 @@ text-align: center;
     }
 }
 
+.news-content-container-front {
+  display: flex;
+  flex-direction: column;
+}
+
+.read-more-container-front {
+  margin-top: auto;
+}
+
+
+
 .front-text{
    font-size: 24px;
     width: 60%;
@@ -96,8 +107,8 @@ text-align: center;
           display:block;
          width: 100%;
          margin-top: -20px;
-         
-      
+
+
       }
 }
 
