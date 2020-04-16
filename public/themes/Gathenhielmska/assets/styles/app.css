@@ -69,6 +69,10 @@ p {
   color: #FFF8F6;
 }
 
+.navigation-under .logo {
+  padding-left: 28px;
+}
+
 .navigation ul li a {
   color: #FFF8F6;
   text-decoration: none;
@@ -107,7 +111,25 @@ p {
     align-items: center;
     background-image: url(/../../../themes/Gathenhielmska/assets/images/background/header_desktop_v2.svg);
     position: absolute;
+    justify-content: space-between;
     top: 0;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .navigation ul {
+    justify-content: flex-end;
+    padding-right: 15%;
+  }
+
+  .navigation ul li {
+    margin: 0 60px;
+  }
+
+  .navigation ul li:nth-child(5) {
+    margin: 0 43px;
   }
 
   .navigation ul li a {
@@ -116,6 +138,7 @@ p {
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    width: 50%;
   }
 }
 
