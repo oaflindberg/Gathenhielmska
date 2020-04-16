@@ -11,11 +11,15 @@
 
 <body <?php body_class(); ?>>
     <nav class="navigation-under">
-        <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+        <a href="localhost:8000/">
+            <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+        </a>
     </nav>
     <header>
         <nav role="navigation" class="navigation">
-            <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+            <a href="http://localhost:8000/">
+                <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+            </a>
             <div class="menu">
                 <?php wp_nav_menu(['theme_location' => 'navigation']); ?>
             </div>
