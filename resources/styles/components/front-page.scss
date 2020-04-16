@@ -84,6 +84,7 @@
 .news-front{
     margin-top: -70px;
     margin-bottom: -90px;
+
 }
 
 .title{
@@ -131,13 +132,14 @@
 
     .second-text{
         width: 300px;
-        margin-top: -13%;
-        margin-bottom: 20%;
+        margin-top: -14%;
+        margin-bottom: 10%;
         margin-left: 300px;
         text-align: center;
     }
     .wrapper-front{
         flex-wrap: nowrap;
+        padding-bottom: 32px;
 
     }
     .test{
@@ -161,7 +163,8 @@
       margin-top: 0px;
       margin-bottom: 20px;
       width: 100vw;
-      padding: 0 130px;
+      padding: 0 120px;
+
   }
 
     .news-container-front {
