@@ -11,7 +11,7 @@
 
 <body <?php body_class(); ?>>
     <nav class="navigation-under">
-        <a href="localhost:8000/">
+        <a href="http://localhost:8000/">
             <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
         </a>
     </nav>

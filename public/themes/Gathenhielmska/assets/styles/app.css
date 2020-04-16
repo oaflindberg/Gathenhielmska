@@ -331,6 +331,8 @@ h3.contact-main {
   color: #112E33;
   display: flex;
   align-items: center;
+  height: 36px;
+  width: 70px;
 }
 
 .nf-field-element ul {
@@ -494,6 +496,10 @@ h3.contact-main {
   .contact-wrapper #nf-field-47 {
     background: #F1E898;
     color: #112E33;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 70px;
   }
 
   .contact-wrapper .nf-form-layout {
@@ -1402,6 +1408,8 @@ a {
 .single-news-wrapper .read-more-container .read-more-btn {
   padding: 4px 8px;
   font-size: 13px;
+  height: 36px;
+  width: 92px;
   line-height: 16px;
   color: #112E33;
   background: #FB8D3D;
