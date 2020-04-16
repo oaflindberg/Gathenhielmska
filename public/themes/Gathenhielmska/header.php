@@ -13,6 +13,9 @@
     <nav class="navigation-under">Gathenhielmska</nav>
     <header>
         <nav role="navigation" class="navigation">
-            <?php wp_nav_menu(['theme_location' => 'navigation']); ?>
+            <img class="logo" src="<?php bloginfo('template_directory') ?>/assets/images/icons/logo.svg " alt="">
+            <div class="menu">
+                <?php wp_nav_menu(['theme_location' => 'navigation']); ?>
+            </div>
         </nav>
     </header>
