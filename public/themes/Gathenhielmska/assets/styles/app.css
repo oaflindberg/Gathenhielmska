@@ -1236,6 +1236,7 @@ a {
 .about-wrapper .about-us {
   margin-bottom: 16px;
   color: #DC6A00;
+  font-size: 36px;
 }
 
 .about-wrapper div {
@@ -1734,14 +1735,15 @@ a {
 
   .second-text {
     width: 300px;
-    margin-top: -13%;
-    margin-bottom: 20%;
+    margin-top: -14%;
+    margin-bottom: 10%;
     margin-left: 300px;
     text-align: center;
   }
 
   .wrapper-front {
     flex-wrap: nowrap;
+    padding-bottom: 32px;
   }
 
   .test {
@@ -1767,7 +1769,7 @@ a {
     margin-top: 0px;
     margin-bottom: 20px;
     width: 100vw;
-    padding: 0 130px;
+    padding: 0 120px;
   }
 
   .news-container-front {
