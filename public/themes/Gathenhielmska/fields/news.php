@@ -40,7 +40,7 @@ if (function_exists('acf_add_local_field_group')) :
                 ),
                 'default_value' => '',
                 'placeholder' => '',
-                'maxlength' => '',
+                'maxlength' => '90',
                 'rows' => '',
                 'new_lines' => '',
             ),
