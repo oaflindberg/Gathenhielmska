@@ -15,7 +15,7 @@
           <p>Stigbergstorget 7 </p>
           <p>414 63 Göteborg</p>
         </div>
-        <div>
+        <div class="email-footer">
           <p>gathenhielmskabokning@gmail.com</p>
         </div>
 

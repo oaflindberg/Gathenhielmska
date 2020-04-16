@@ -884,6 +884,18 @@ h2.info-main {
   .sponsor-wrapper img {
     margin: 10px;
   }
+
+  .desktop-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .sponsor-us {
+    margin-bottom: 30px;
+  }
+
+  .email-footer {
+    margin-top: 10px;
+  }
 }
 
 .btn-category-wrapper {
@@ -959,7 +971,6 @@ a {
 
 .event-text {
   padding: 16px;
-  padding-bottom: 3pc;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -1090,7 +1101,6 @@ a {
 }
 
 .navigation-event {
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1125,7 +1135,7 @@ a {
   width: 100vw;
   align-items: center;
   justify-content: center;
-  margin-top: 101px;
+  margin-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -1199,6 +1209,10 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .single-post-wrapper {
+    margin-top: 101px;
+  }
+
   .arrow-back-single {
     margin-right: 96%;
   }
@@ -1605,7 +1619,6 @@ a {
 
   .single-news-wrapper .single-news .single-news-cards .single-news-content-container {
     width: 100%;
-    height: 240px;
     display: flex;
     flex-direction: column;
   }

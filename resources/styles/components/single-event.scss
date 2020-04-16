@@ -1,5 +1,5 @@
 .navigation-event{
-  height: 100px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +31,7 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
-    margin-top: 101px;
+    margin-top: 40px;
     padding-bottom: 40px;
     
   }
@@ -102,6 +102,9 @@ line-height: 19px;
   }
   
   @media screen and (min-width: 1024px) { 
+    .single-post-wrapper{
+      margin-top: 101px;
+    }
 .arrow-back-single{
   margin-right: 96%;
 }
