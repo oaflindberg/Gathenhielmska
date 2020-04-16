@@ -66,13 +66,16 @@
                         <div class="ticket-wrapper">
                             <button class="ticket-btn" href="www.biletto.se">Boka plats</button>
                             <?php $categories = get_the_terms($post, 'category')  ?>
-                            <?php foreach ($categories as $category) : ?>
-                                <!-- <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a> -->
-                                <img class="cat-icon" src=" <?php echo get_field('white_img', $category)  ?>" alt="">
-                            <?php endforeach; ?>
+                            <div class="category-box">
+                                <?php foreach ($categories as $category) : ?>
+                                    <!-- <a href="<?php echo get_term_link($category) ?>"> <?php echo $category->name ?></a> -->
+                                    <img class="cat-icon" src=" <?php echo get_field('white_img', $category)  ?>" alt="">
+                                <?php endforeach; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </a> <?php endforeach; ?> </div>
+    </div>
+    </a> <?php endforeach; ?> </div>
 <?php endif; ?>
 <?php get_footer(); ?>

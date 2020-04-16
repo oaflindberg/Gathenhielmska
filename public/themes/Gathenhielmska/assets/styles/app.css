@@ -279,18 +279,19 @@ h3.contact-main {
   align-items: center;
 }
 
-.nf-form-layout #nf-field-28-container {
+.nf-form-layout #nf-field-23-container {
   width: 40%;
   margin: 0;
 }
 
-.nf-form-layout #nf-field-17-container {
+.nf-form-layout #nf-field-24-container {
+  padding-bottom: 54px;
   margin: 0;
   width: 20%;
   padding-bottom: 54px;
 }
 
-.nf-form-layout #nf-field-17 {
+.nf-form-layout #nf-field-24 {
   background: #F1E898;
   color: #112E33;
   display: flex;
@@ -922,8 +923,8 @@ a {
 }
 
 .event-text {
-  margin-top: 10px;
-  padding: 15px;
+  padding: 16px;
+  padding-bottom: 3pc;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -966,14 +967,17 @@ a {
 
 .entrance {
   height: 24px;
-  width: 100px;
+  width: -webkit-max-content;
+  width: max-content;
+  padding: 3px;
   background-color: #FB8D3D;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -40px;
-  margin-left: 220px;
+  float: right;
+  margin-right: 5px;
   color: #112E33 !important;
   font-weight: 500;
   font-family: "Lato", sans-serif;
@@ -1008,6 +1012,7 @@ a {
 .cat-icon {
   width: 36px;
   height: 36px;
+  margin: 0 5px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1683,6 +1688,11 @@ a {
     position: static;
     bottom: 10px;
   }
+}
+
+.category-box {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .thumbnail-category {
