@@ -140,6 +140,10 @@ p {
     line-height: 22px;
     width: 50%;
   }
+
+  .navigation ul li a[aria-current=page] {
+    color: #F1E898;
+  }
 }
 
 #responsive-menu {
@@ -162,6 +166,10 @@ p {
 
 .contact-main {
   margin: 20px;
+}
+
+.contact-main a {
+  color: #1E5D76;
 }
 
 h2.contact-main {
@@ -438,6 +446,10 @@ h3.contact-main {
 
   .contact-wrapper .other-actor-wrapper .other-actor:nth-child(4) {
     width: 280px;
+  }
+
+  .contact-wrapper .other-actor-wrapper .other-actor:nth-child(5) {
+    margin-left: 60px;
   }
 
   .contact-wrapper .contact-heading-bg {

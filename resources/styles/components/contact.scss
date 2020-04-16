@@ -7,6 +7,10 @@
 
 .contact-main {
   margin: 20px;
+
+  a {
+    color: $blue;
+  }
 }
 
 h2.contact-main {
@@ -273,9 +277,9 @@ h3.contact-main {
         width: 280px;
       }
 
-      // .other-actor:nth-child(5) {
-      //   margin-left: 60px;
-      // }
+      .other-actor:nth-child(5) {
+        margin-left: 60px;
+      }
     }
 
     .contact-heading-bg {

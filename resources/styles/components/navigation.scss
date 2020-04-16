@@ -91,5 +91,9 @@
         font-size: 18px;
         line-height: 22px;
         width: 50%;
+
+        &[aria-current="page"] {
+          color: $gold;
+        }
       }
   }
