@@ -889,7 +889,7 @@ h2.info-main {
   width: 62px;
   height: 30px;
   background-color: #FFF8F6;
-  color: #FB8D3D;
+  color: #DC6A00;
   font-size: 18px;
   margin-right: 16px;
 }
@@ -1236,7 +1236,7 @@ a {
   margin-left: -3px;
 }
 
-.history-test {
+.history-container {
   width: 90%;
   display: flex;
   justify-content: space-evenly;
@@ -1262,6 +1262,16 @@ a {
 .info-text {
   font-size: 14px;
   width: 75%;
+}
+
+@media screen and (min-width: 1024px) {
+  .history-wrapper {
+    display: none;
+  }
+
+  .history-container {
+    display: none;
+  }
 }
 
 .news-container,
