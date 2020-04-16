@@ -1684,6 +1684,12 @@ a {
   margin-bottom: -80px;
 }
 
+.news-time {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 600px) {
   .background-mobile {
     display: none;
@@ -1732,8 +1738,16 @@ a {
     width: 100vw;
   }
 
+  .news-front {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100vw;
+    padding: 0 130px;
+  }
+
   .news-container-front {
     width: 100vw;
+    margin-top: 20px;
     padding: 0 70px;
   }
 

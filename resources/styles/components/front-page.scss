@@ -21,8 +21,8 @@
         font-size: 30px;
         font-weight: normal;
         width: 100px;
-position: relative;
-text-align: center;
+        position: relative;
+        text-align: center;
     }
 }
 
@@ -34,8 +34,6 @@ text-align: center;
 .read-more-container-front {
   margin-top: auto;
 }
-
-
 
 .front-text{
    font-size: 24px;
@@ -97,6 +95,12 @@ text-align: center;
     margin-bottom: -80px;
 }
 
+.news-time {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 600px) {
 
     .background-mobile  {
@@ -117,7 +121,7 @@ text-align: center;
         display:flex;
         align-items: center;
         justify-content: center;
-       width: 100vw;
+        width: 100vw;
     }
 
     .second-text{
@@ -133,40 +137,48 @@ text-align: center;
         margin-left: 40px;
     }
 
-.front-background{
-    height: 280px;
-    width: 1000px;
-}
-.front-background{
-    display:none;
-}
-.front-background-desktop{
-    display:block;
-    width: 100vw;
-}
+    .front-background{
+        height: 280px;
+        width: 1000px;
+    }
+    .front-background{
+        display:none;
+    }
+    .front-background-desktop{
+        display:block;
+        width: 100vw;
+    }
 
-.news-container-front {
-  width: 100vw;
-  padding: 0 70px;
-
-  .news-cards-front {
-    width: 420px;
-    height: 527px;
+    .news-front{
+      margin-top: 0px;
+      margin-bottom: 20px;
+      width: 100vw;
+      padding: 0 130px;
   }
 
-  .news-thumbnail-front {
-    width: inherit;
-  }
+    .news-container-front {
+      width: 100vw;
+      margin-top: 20px;
+      padding: 0 70px;
 
-  .news-content-container-front {
-    width: inherit;
-    height: 273px;
-  }
+      .news-cards-front {
+        width: 420px;
+        height: 527px;
+      }
 
-  .read-more-container-front {
-    width: inherit;
-    position: static;
-    bottom: 10px;
-  }
-}
+      .news-thumbnail-front {
+        width: inherit;
+      }
+
+      .news-content-container-front {
+        width: inherit;
+        height: 273px;
+      }
+
+      .read-more-container-front {
+        width: inherit;
+        position: static;
+        bottom: 10px;
+      }
+    }
  }
