@@ -75,7 +75,6 @@
                         </div>
                     </div>
                 </div>
-    </div>
-    </a> <?php endforeach; ?> </div>
+            </a> <?php endforeach; ?> </div>
 <?php endif; ?>
 <?php get_footer(); ?>

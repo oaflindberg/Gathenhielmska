@@ -17,7 +17,8 @@
                 <p> <?php echo the_field('text2') ?> </p>
             </div>
             <h3>Historia</h3>
-            <img class="timeline" src="<?php bloginfo('template_directory') ?>/assets/images/images/tidslinje.png" alt="timeline">
+            <img class="timeline" src="<?php bloginfo('template_directory') ?>/assets/images/images/tidslinje_v2.png" alt="timeline">
+
 
             <div class="history-wrapper">
                 <div class="history-line">
@@ -29,7 +30,7 @@
                     <div class="year-line"></div>
                 </div>
 
-                <div class="history-test">
+                <div class="history-container">
                     <div class="year-text">
                         <p class="year">1717</p>
                         <p class="info-text">Marken skänks till den kungliga kaparen Lars Gathenhielm av Karl XII. </p>

@@ -38,7 +38,7 @@
     margin-left:-3px;
 
 }
-.history-test {
+.history-container {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
@@ -65,3 +65,12 @@ align-items: center;
     width: 75%;
 }
 
+
+@media screen and (min-width: 1024px) {
+    .history-wrapper{
+        display:none;
+    }
+    .history-container{
+        display: none;
+    }
+ }
