@@ -95,6 +95,7 @@ text-align: center;
 }
 .upcoming-h3{
     margin-bottom: -80px;
+    
 }
 
 @media screen and (min-width: 600px) {
@@ -113,6 +114,10 @@ text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
+    .upcoming-h3{
+        margin-bottom: -80px;
+        padding: 0 110px;
+    }
     .text-wrapper{
         display:flex;
         align-items: center;
@@ -121,8 +126,11 @@ text-align: center;
     }
 
     .second-text{
-        margin-top: -10%;
+        width: 300px;
+        margin-top: -13%;
         margin-bottom: 20%;
+        margin-left: 300px;
+        text-align: center;
     }
     .wrapper-front{
         flex-wrap: nowrap;

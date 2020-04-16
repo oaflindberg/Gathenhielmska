@@ -102,23 +102,25 @@ line-height: 19px;
   }
   
   @media screen and (min-width: 1024px) { 
-
+.arrow-back-single{
+  margin-right: 96%;
+}
   .single-event {
     width: calc(100vw - 600px);
     .thumbnail-single {
     width: calc(100vw - 600px);
+    height: 430px;
     }
   }
 
   .single-page {
     display: flex;
-    align-items: center;
     padding: 30px;
 
 
   }
   .upcoming{
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: 131px;
   }
 }

@@ -1,4 +1,6 @@
-
+.timeline{
+    display:none
+}
 .about-wrapper {
 
     margin-top: 101px;
@@ -67,6 +69,9 @@ align-items: center;
 
 
 @media screen and (min-width: 1024px) {
+    .timeline{
+        display:block;
+    }
     .history-wrapper{
         display:none;
     }

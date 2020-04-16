@@ -92,7 +92,7 @@ $terms = get_terms(array(
 <img class="front-background" src="<?php bloginfo('template_directory') ?>/assets/images/background/front-background.svg" alt="backgroun">
 <img class="front-background-desktop" src="<?php bloginfo('template_directory') ?>/assets/images/background/Union.svg" alt="backgroun">
 
-<div class=" second-text">
+<div class="second-text">
     <p class="second-text"><?php the_field('second_text'); ?></p>
 </div>
 

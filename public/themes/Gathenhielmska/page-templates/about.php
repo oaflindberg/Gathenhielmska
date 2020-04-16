@@ -8,14 +8,9 @@
         <?php get_field('About us') ?>
         <div class="about-wrapper">
             <h2 class="about-us">Om oss</h2>
-            <div>
-                <h3> <?php echo the_field('title1') ?> </h3>
-                <p> <?php echo the_field('text1') ?> </p>
-            </div>
-            <div>
-                <h3> <?php echo the_field('title2') ?> </h3>
-                <p> <?php echo the_field('text2') ?> </p>
-            </div>
+
+            <?php the_content(); ?>
+
             <h3>Historia</h3>
             <img class="timeline" src="<?php bloginfo('template_directory') ?>/assets/images/images/tidslinje_v2.png" alt="timeline">
 
