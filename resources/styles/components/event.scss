@@ -171,10 +171,11 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 70px;
+    padding: 0 60px;
   }
 
 .btn-category-wrapper{
+  margin-left: -80px;
   margin-top:40px;
   display: flex;
   width: 50%;
