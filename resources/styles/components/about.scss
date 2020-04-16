@@ -6,7 +6,7 @@
     padding-left: 16px;
     .about-us{
         margin-bottom: 16px;
-        color: $light-orange;
+        color: $dark-orange;
     }
     div{
         margin-bottom: 20px;
@@ -14,7 +14,7 @@
     h3 {
         font-size: 20px;
         margin-bottom: 16px;
-        color: $light-orange;
+        color: $dark-orange;
     }
 }
 
@@ -72,5 +72,12 @@ align-items: center;
     }
     .history-container{
         display: none;
+    }
+
+    .about-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+ padding: 0 300px;
     }
  }
