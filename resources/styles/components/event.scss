@@ -67,8 +67,8 @@ a{
 
 }
 .event-text {
-  margin-top: 10px;
-  padding: 15px;
+  padding: 16px;
+  padding-bottom: 3pc;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -109,14 +109,16 @@ width: 80%;
 
 .entrance{
   height: 24px;
-  width: 100px;
+  width: max-content;
+  padding: 3px;
   background-color: $light-orange;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -40px;
-  margin-left: 220px;
+ float:right;
+ margin-right: 5px;
   color: $blueGat !important;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
@@ -151,6 +153,7 @@ width: 80%;
 .cat-icon{
   width: 36px;
   height: 36px;
+  margin: 0 5px;
 }
 
 @media screen and (min-width: 1024px) { 
